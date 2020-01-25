@@ -1,0 +1,1006 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.top {
+position: absolute;
+width: 100%;
+height: 1.6rem;
+left: 0rem;
+top: 0rem;
+background: #3B95FF;
+}
+
+nav {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 13rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  color: #2E2E2E;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.About {
+  color: #2E2E2E;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.nav_links li {
+  display: inline;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+.nav_links a:hover {
+  text-decoration: highlight;
+  color: #FFC3C3;
+}
+
+
+.jt_logo {
+  margin-left: 2rem;
+  width: 6.6rem;
+}
+
+a:hover {
+  color: #431FA8;
+}
+
+.hero-inner {
+  height: 32.5rem;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.hero {
+  height: 65rem;
+  width: 100%;
+  background-image: url("../media/images/shapes-bg.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 4.8rem;
+line-height: 7.2rem;
+color: #431FA8;
+}
+
+h2 {
+font-family: 'Poppins SemiBold', 'sans serif';
+font-style: normal;
+font-weight: 600;
+font-size: 3.2rem;
+line-height: 4.8rem;
+color: #2E2E2E;
+}
+
+h3 {
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 2.6rem;
+line-height: 3.4rem;
+padding-top: 2rem;
+color: #2E2E2E;
+}
+
+p {
+font-family: 'Poppins', 'sans serif';
+font-style: normal;
+font-weight: normal;
+font-size: 1.8rem;
+color: #2E2E2E;
+line-height: 2.7rem;
+}
+
+.bold-p {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #2E2E2E;
+  line-height: 2.7rem;
+}
+
+.cta-1 {
+      margin-top: 4.3rem;
+      background-color: #fff;
+      font-size: 1.8rem;
+      font-family: 'Poppins Black', sans-serif;
+      font-style: black;
+      font-weight: black;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 20.3rem;
+      height: 5.6rem;
+      left: 22rem;
+      top: 48.9rem;
+      border: .5rem solid #2E2E2E;
+      box-sizing: border-box;
+      padding-left: 2.2rem;
+}
+
+.cta-2 {
+
+    color: #fff;
+    background-color: #2E2E2E;
+    font-size: 1.8rem;
+    font-family: 'Poppins Black', sans-serif;
+    font-style: black;
+    font-weight: black;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 20.3rem;
+    height: 5.6rem;
+    left: 22rem;
+    top: 48.9rem;
+    border: .5rem solid #2E2E2E;
+    box-sizing: border-box;
+    padding-left: 5.5rem;
+}
+
+
+.cta-2:hover {
+  color: #2E2E2E;
+  background-color: #fff;
+  border: .5rem solid #2E2E2E;
+}
+
+.cta-1:hover {
+  color: #FFF;
+  background-color: #431FA8;
+  border: .5rem solid #431FA8;
+}
+
+.case-study1 {
+  margin-top: 8rem;
+  width: 100%;
+  height: 68.5rem;
+  background: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloon-illo {
+width: 52.2rem;
+height: 32.4rem;
+}
+
+.bloon {
+  padding-left: 17.5rem;
+}
+
+.vl1 {
+float: left;
+  width: .8rem;
+  height: 11rem;
+  background: #FFC3C3;
+  color: #FFC3C3;
+  margin:1.5rem 2rem 0 0;
+}
+
+
+.vl2 {
+  position: absolute;
+  width: .8rem;
+  height: 9rem;
+  background: #FFC3C3;
+  color: #FFC3C3;
+  margin: -4.8rem 0 0 20rem;
+}
+
+.vl3 {
+  position: absolute;
+  width: .8rem;
+  height: 9rem;
+  background: #FFC3C3;
+  color: #FFC3C3;
+  margin: -4.8rem 0 0 20rem;
+}
+
+.case-study2 {
+  width: 100%;
+  height: 68.5rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.busy-bus-image {
+  width: 60.2rem;
+  height: 50.4rem;
+  object-fit: contain;
+}
+
+.busy-bus {
+  padding-left: 12.8rem;
+}
+
+.skills-section {
+  width: 100%;
+  height: 72rem;
+  background: #2E2E2E;
+}
+
+.skills-box {
+  height: 72rem;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-content: center;
+}
+
+.skills-list {
+  color: white;
+  font-family: Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 72rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.skills-list li {
+  list-style-type: none;
+  color: #C5C5C5;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.sh1 {
+  font-family: 'Poppins', 'sans serif';
+  font-size: 3.2rem;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 4.8rem;
+  padding: 20rem 0rem 3rem 17.8rem;
+}
+
+.sh2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 100%;
+  height: 43rem;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text p {
+  padding: 1rem 0 3rem 0;
+}
+
+.footer-icons {
+  display: inline;
+  padding-top: 5rem;
+}
+
+.footer-icons i {
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+/* Bloon Case Study */
+
+.h3-bloon {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.6rem;
+  color: #2E2E2E;
+  }
+}
+
+.bloon-hero {
+  height: 65rem;
+  width: 100%;
+}
+
+.bloon-hero-inner {
+  height: 32.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloon-hero-image {
+  width: 100%;
+  height: 108.8rem;
+}
+
+.bloon-5-screen {
+  max-width: 100%;
+ height: auto;
+  object-fit: contain;
+}
+
+/* Summary */
+
+.summary-section {
+width: 100%;
+background: #fff;
+contain: content;
+}
+
+.summary-head {
+width: 90rem;
+padding-top: 10rem;
+margin: auto;
+}
+
+.bloon-h2 {
+  font-family: 'Poppins SemiBold', 'sans serif';
+  font-style: normal;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #431FA8;
+}
+
+.project-details {
+  width: 100%;
+  height: 72rem;
+  margin-top: 10rem;
+}
+
+.details-box {
+  width: 90rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.details-list {
+  color: #2E2E2E;
+  font-family: Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 72rem;
+  width: 90rem;
+}
+
+.details-list li {
+  list-style-type: none;
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.details-h2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding-bottom: 2rem;
+  color: #2E2E2E;
+}
+
+/* The Problem - Section */
+
+.problem-section {
+  width: 100%;
+  background: #2E2E2E;
+}
+
+.bloon-dark-h2 {
+  font-family: 'Poppins SemiBold', 'sans serif';
+  font-style: normal;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+.p-bloon-dark {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+}
+
+.problem-inner {
+  width: 90rem;
+  margin: auto;
+  padding: 12rem 0 0 0;
+}
+
+.ct-tweet {
+  width: 40%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tweet {
+  margin: 9rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figcaption {
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1.5rem 0 10rem 0;
+}
+
+/* The Solution */
+
+.solution-section {
+width: 100%;
+background: #fff;
+contain: content;
+}
+
+.solution-head {
+  width: 90rem;
+  margin: auto;
+  padding-top: 12rem;
+}
+
+.solution-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-img {
+  max-width: 70%;
+  object-fit: contain;
+  padding-top: 5rem;
+}
+
+/* User Research */
+
+.UR-section {
+width: 100%;
+background: #fff;
+contain: content;
+}
+
+.UR-head {
+  width: 90rem;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+/* User Personas */
+
+ .User-Personas {
+width: 100%;
+background: #fff;
+padding-top: 10rem;
+}
+
+.UP-head {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+ .POVs {
+   max-width: 50%;
+   object-fit: contain;
+   padding-top: 8rem;
+}
+
+.povs-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.see-more-link2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+/* Competitive Analysis */
+.CA-section {
+width: 100%;
+background: #fff;
+contain: content;
+}
+
+.CA-head {
+  width: 90rem;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.ca-image {
+  width: 80%;
+  display: flex;
+  justify-content: left;
+  padding: 1rem 0 2rem 0;
+}
+
+
+/* User Stories */
+
+ .User-Stories {
+width: 100%;
+background: #fff;
+padding-top: 10rem;
+}
+
+.US-head {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+ .US-image {
+   max-width: 50%;
+   object-fit: contain;
+   padding: 4rem 0 10rem 0;
+}
+
+.US-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* User Flows */
+
+ .User-Flows {
+width: 100%;
+background: #fff;
+}
+
+.UF-head {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+ .UF-image {
+   max-width: 50%;
+   object-fit: contain;
+   padding: 6rem 0 0 0;
+}
+
+.UF-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.figcaptionblack {
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #636363;
+    padding: 0 0 5rem 0;
+    text-align: center;
+  }
+
+
+.see-more-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0 5rem 0;
+}
+
+
+.link {
+  font-family: 'PT Sans', 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #431FA8;
+}
+
+.link-2 {
+  font-family: 'Poppins Black', 'Open Sans';
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #431FA8;
+  padding: 0 0 0 3.8rem;
+}
+
+.see-more-link i {
+  padding-left: 1.6rem;
+  color: #431FA8;
+}
+
+/* Sketches */
+
+.Sketching-section {
+  width: 100%;
+  background: #F0F0F0;
+}
+
+.sketching-head {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 14.6rem 0 6rem 0;
+}
+
+.bloon-h3 {
+  font-family: 'Poppins SemiBold', 'sans serif';
+  font-style: normal;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #2E2E2E;
+}
+
+.sketching-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.sketching-image1 {
+  max-width: 60%;
+  object-fit: contain;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sketching-image2 {
+  max-width: 60%;
+  object-fit: contain;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.figcaptionblack2 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #636363;
+    padding: 3rem 0 10rem 0;
+    text-align: center;
+  }
+
+
+
+  /* Wireframes */
+
+  .Wireframes-section {
+    width: 100%;
+    background: #F0F0F0;
+  }
+
+  .Wireframe-head {
+    width: 90rem;
+    margin: 0 auto;
+    padding: 6rem 0 6rem 0;
+  }
+
+  .Wireframe-images {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .Wireframe-image1 {
+    max-width: 60%;
+
+  }
+
+  .Wireframe-image2 {
+    max-width: 60%;
+
+  }
+
+  .Wireframe-image3 {
+    max-width: 60%;
+
+  }
+
+  .pro-con-details {
+    width: 100%;
+    padding: 1rem 0 0 0;
+  }
+
+  .pro-con-box {
+    width: 100rem;
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: auto;
+
+   }
+
+   .pro-con-list {
+    color: #2E2E2E;
+    font-family: Sans-Serif;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100rem;
+    list-style-position: inside;
+    border-left: .8rem solid #41BC72;
+    margin: 0 8rem 15rem 5rem;
+    padding-left: 1.3rem;
+  }
+
+
+  .pro-con-list2 {
+   color: #2E2E2E;
+   font-family: Sans-Serif;
+   font-weight: normal;
+   font-size: 16px;
+   width: 100rem;
+   list-style-position: inside;
+   border-left: .8rem solid #FFC3C3;
+   margin: 0 0 15rem 0;
+   padding-left: 1.3rem;
+  }
+
+  .pro-con-list li {
+    list-style-type: disc;
+    color: #2E2E2E;
+    font-family: 'PT Sans', 'sans serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+
+    .pro-con-list2 li {
+      list-style-type: disc;
+      color: #2E2E2E;
+      font-family: 'PT Sans', 'sans serif';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+    }
+
+  .pro-con-h2 {
+    font-family: 'PT Sans', 'sans serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    padding-bottom: 1rem;
+    color: #2E2E2E;
+  }
+
+/* Early Prototyping Conclusions */
+.protoyping-con-section {
+  width: 100%;
+  background: #2E2E2E;
+  padding-bottom: 18rem;
+}
+
+.PC-head {
+  width: 90rem;
+  margin: auto;
+  padding: 16rem 0 0 0;
+}
+
+
+
+/* Branding */
+
+.Branding-Section {
+width: 100%;
+background: #fff;
+}
+
+.Branding-head {
+ width: 90rem;
+ margin: 0 auto;
+ padding-top: 15rem;
+}
+
+.Branding-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ padding: 0 0 10rem 0;
+}
+
+.Brand-image1 {
+  max-width: 35%;
+  object-fit: contain;
+  padding: 5rem 0 2rem 0;
+}
+
+
+.Brand-image2 {
+  max-width: 50%;
+  object-fit: contain;
+  padding: 5rem 0 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Final Brand Deliverables */
+
+.Brand-Deliverables {
+width: 100%;
+background: #F0F0F0;
+}
+
+.BD-head {
+ width: 90rem;
+ margin: 0 auto;
+ padding: 16rem 0 18rem 0;
+}
+
+
+.cta-3 {
+    color: #2E2E2E;
+    background-color: ##F0F0F0;
+    font-size: 1.8rem;
+    font-family: 'Poppins Black', sans-serif;
+    font-style: black;
+    font-weight: black;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 20.3rem;
+    height: 5.6rem;
+    left: 22rem;
+    top: 48.9rem;
+    border: .5rem solid #2E2E2E;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+
+.cta-3:hover {
+  color: #fff;
+  background-color: #2E2E2E;
+  border: .5rem solid #2E2E2E;
+}
+
+.cta3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 7.6rem;
+}
+
+
+/* Final Designs */
+
+.Final-Designs {
+width: 100%;
+background: #fff;
+}
+
+.FD-head {
+ width: 90rem;
+ margin: 0 auto;
+ padding-top: 15rem;
+}
+
+.FD-images{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ padding: 0 0 10rem 0;
+}
+
+.FD-image {
+  max-width: 60%;
+  object-fit: contain;
+  padding: 6rem 0 0 0;
+}
+
+
+/* Conclusion Image*/
+
+.Conclusion-image {
+  width: 100%;
+  height: 108.8rem;
+}
+
+.bloon-3-screen {
+  max-width: 100%;
+ height: auto;
+  object-fit: contain;
+}
+
+/* Conclusion */
+
+.conclusion-section {
+  width: 100%;
+  background: #fff;
+  contain: content;
+}
+
+.conclusion-head {
+  width: 90rem;
+  margin: auto;
+  padding: 10rem 0 15rem 0;
+}
+
+/* Media Queries */
