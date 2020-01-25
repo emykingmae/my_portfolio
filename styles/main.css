@@ -7,12 +7,12 @@ html {
 }
 
 .top {
-position: absolute;
-width: 100%;
-height: 1.6rem;
-left: 0rem;
-top: 0rem;
-background: #3B95FF;
+  background: #3B95FF;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
 }
 
 nav {
@@ -53,7 +53,6 @@ a {
   color: #FFC3C3;
 }
 
-
 .jt_logo {
   margin-left: 2rem;
   width: 6.6rem;
@@ -80,40 +79,40 @@ a:hover {
 }
 
 h1 {
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 4.8rem;
-line-height: 7.2rem;
-color: #431FA8;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  color: #431FA8;
 }
 
 h2 {
-font-family: 'Poppins SemiBold', 'sans serif';
-font-style: normal;
-font-weight: 600;
-font-size: 3.2rem;
-line-height: 4.8rem;
-color: #2E2E2E;
+  font-family: 'Poppins SemiBold', 'sans serif';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  color: #2E2E2E;
 }
 
 h3 {
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 2.6rem;
-line-height: 3.4rem;
-padding-top: 2rem;
-color: #2E2E2E;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  padding-top: 2rem;
+  color: #2E2E2E;
 }
 
 p {
-font-family: 'Poppins', 'sans serif';
-font-style: normal;
-font-weight: normal;
-font-size: 1.8rem;
-color: #2E2E2E;
-line-height: 2.7rem;
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #2E2E2E;
+  line-height: 2.7rem;
 }
 
 .bold-p {
@@ -126,44 +125,43 @@ line-height: 2.7rem;
 }
 
 .cta-1 {
-      margin-top: 4.3rem;
-      background-color: #fff;
-      font-size: 1.8rem;
-      font-family: 'Poppins Black', sans-serif;
-      font-style: black;
-      font-weight: black;
-      font-size: 1.8rem;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      width: 20.3rem;
-      height: 5.6rem;
-      left: 22rem;
-      top: 48.9rem;
-      border: .5rem solid #2E2E2E;
-      box-sizing: border-box;
-      padding-left: 2.2rem;
+  margin-top: 4.3rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-family: 'Poppins Black', sans-serif;
+  font-style: black;
+  font-weight: black;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  border: .5rem solid #2E2E2E;
+  box-sizing: border-box;
+  padding-left: 2.2rem;
 }
 
 .cta-2 {
-
-    color: #fff;
-    background-color: #2E2E2E;
-    font-size: 1.8rem;
-    font-family: 'Poppins Black', sans-serif;
-    font-style: black;
-    font-weight: black;
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 20.3rem;
-    height: 5.6rem;
-    left: 22rem;
-    top: 48.9rem;
-    border: .5rem solid #2E2E2E;
-    box-sizing: border-box;
-    padding-left: 5.5rem;
+  color: #fff;
+  background-color: #2E2E2E;
+  font-size: 1.8rem;
+  font-family: 'Poppins Black', sans-serif;
+  font-style: black;
+  font-weight: black;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  border: .5rem solid #2E2E2E;
+  box-sizing: border-box;
+  padding-left: 5.5rem;
 }
 
 
@@ -190,8 +188,8 @@ line-height: 2.7rem;
 }
 
 .bloon-illo {
-width: 52.2rem;
-height: 32.4rem;
+  width: 52.2rem;
+  height: 32.4rem;
 }
 
 .bloon {
@@ -199,7 +197,7 @@ height: 32.4rem;
 }
 
 .vl1 {
-float: left;
+  float: left;
   width: .8rem;
   height: 11rem;
   background: #FFC3C3;
@@ -255,11 +253,9 @@ float: left;
   height: 72rem;
   width: 100%;
   display: flex;
-
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-
   justify-content: space-around;
   align-content: center;
 }
@@ -337,7 +333,6 @@ footer {
   font-weight: normal;
   font-size: 2.6rem;
   color: #2E2E2E;
-  }
 }
 
 .bloon-hero {
@@ -360,22 +355,22 @@ footer {
 
 .bloon-5-screen {
   max-width: 100%;
- height: auto;
+  height: auto;
   object-fit: contain;
 }
 
 /* Summary */
 
 .summary-section {
-width: 100%;
-background: #fff;
-contain: content;
+  width: 100%;
+  background: #fff;
+  contain: content;
 }
 
 .summary-head {
-width: 90rem;
-padding-top: 10rem;
-margin: auto;
+  width: 90rem;
+  padding-top: 10rem;
+  margin: auto;
 }
 
 .bloon-h2 {
@@ -486,9 +481,9 @@ figcaption {
 /* The Solution */
 
 .solution-section {
-width: 100%;
-background: #fff;
-contain: content;
+  width: 100%;
+  background: #fff;
+  contain: content;
 }
 
 .solution-head {
@@ -512,9 +507,9 @@ contain: content;
 /* User Research */
 
 .UR-section {
-width: 100%;
-background: #fff;
-contain: content;
+  width: 100%;
+  background: #fff;
+  contain: content;
 }
 
 .UR-head {
@@ -526,9 +521,9 @@ contain: content;
 /* User Personas */
 
  .User-Personas {
-width: 100%;
-background: #fff;
-padding-top: 10rem;
+  width: 100%;
+  background: #fff;
+  padding-top: 10rem;
 }
 
 .UP-head {
@@ -558,9 +553,9 @@ padding-top: 10rem;
 
 /* Competitive Analysis */
 .CA-section {
-width: 100%;
-background: #fff;
-contain: content;
+  width: 100%;
+  background: #fff;
+  contain: content;
 }
 
 .CA-head {
@@ -576,13 +571,12 @@ contain: content;
   padding: 1rem 0 2rem 0;
 }
 
-
 /* User Stories */
 
  .User-Stories {
-width: 100%;
-background: #fff;
-padding-top: 10rem;
+  width: 100%;
+  background: #fff;
+  padding-top: 10rem;
 }
 
 .US-head {
@@ -590,10 +584,10 @@ padding-top: 10rem;
   margin: 0 auto;
 }
 
- .US-image {
-   max-width: 50%;
-   object-fit: contain;
-   padding: 4rem 0 10rem 0;
+.US-image {
+  max-width: 50%;
+  object-fit: contain;
+  padding: 4rem 0 10rem 0;
 }
 
 .US-images {
@@ -605,8 +599,8 @@ padding-top: 10rem;
 /* User Flows */
 
  .User-Flows {
-width: 100%;
-background: #fff;
+  width: 100%;
+  background: #fff;
 }
 
 .UF-head {
@@ -629,15 +623,15 @@ background: #fff;
 }
 
 .figcaptionblack {
-    font-family: 'Open Sans', 'sans-serif';
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    color: #636363;
-    padding: 0 0 5rem 0;
-    text-align: center;
-  }
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #636363;
+  padding: 0 0 5rem 0;
+  text-align: center;
+}
 
 
 .see-more-link {
@@ -647,7 +641,6 @@ background: #fff;
   align-items: center;
   padding: 10rem 0 5rem 0;
 }
-
 
 .link {
   font-family: 'PT Sans', 'Open Sans';
@@ -713,126 +706,117 @@ background: #fff;
 }
 
 .figcaptionblack2 {
-    font-family: 'Open Sans', 'sans-serif';
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    color: #636363;
-    padding: 3rem 0 10rem 0;
-    text-align: center;
-  }
-
-
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #636363;
+  padding: 3rem 0 10rem 0;
+  text-align: center;
+}
 
   /* Wireframes */
 
-  .Wireframes-section {
-    width: 100%;
-    background: #F0F0F0;
-  }
+.Wireframes-section {
+  width: 100%;
+  background: #F0F0F0;
+}
 
-  .Wireframe-head {
-    width: 90rem;
-    margin: 0 auto;
-    padding: 6rem 0 6rem 0;
-  }
+.Wireframe-head {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 6rem 0 6rem 0;
+}
 
-  .Wireframe-images {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
-  }
+.Wireframe-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
 
-  .Wireframe-image1 {
-    max-width: 60%;
+.Wireframe-image1 {
+  max-width: 60%;
+}
 
-  }
+.Wireframe-image2 {
+  max-width: 60%;
+}
 
-  .Wireframe-image2 {
-    max-width: 60%;
+.Wireframe-image3 {
+  max-width: 60%;
+}
 
-  }
+.pro-con-details {
+  width: 100%;
+  padding: 1rem 0 0 0;
+}
 
-  .Wireframe-image3 {
-    max-width: 60%;
+.pro-con-box {
+  width: 100rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
 
-  }
+.pro-con-list {
+  color: #2E2E2E;
+  font-family: Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100rem;
+  list-style-position: inside;
+  border-left: .8rem solid #41BC72;
+  margin: 0 8rem 15rem 5rem;
+  padding-left: 1.3rem;
+}
 
-  .pro-con-details {
-    width: 100%;
-    padding: 1rem 0 0 0;
-  }
+.pro-con-list2 {
+  color: #2E2E2E;
+  font-family: Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100rem;
+  list-style-position: inside;
+  border-left: .8rem solid #FFC3C3;
+  margin: 0 0 15rem 0;
+  padding-left: 1.3rem;
+}
 
-  .pro-con-box {
-    width: 100rem;
-    display: flex;
+.pro-con-list li {
+  list-style-type: disc;
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
 
-    justify-content: space-between;
+.pro-con-list2 li {
+  list-style-type: disc;
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
 
-    margin: auto;
-
-   }
-
-   .pro-con-list {
-    color: #2E2E2E;
-    font-family: Sans-Serif;
-    font-weight: normal;
-    font-size: 16px;
-    width: 100rem;
-    list-style-position: inside;
-    border-left: .8rem solid #41BC72;
-    margin: 0 8rem 15rem 5rem;
-    padding-left: 1.3rem;
-  }
-
-
-  .pro-con-list2 {
-   color: #2E2E2E;
-   font-family: Sans-Serif;
-   font-weight: normal;
-   font-size: 16px;
-   width: 100rem;
-   list-style-position: inside;
-   border-left: .8rem solid #FFC3C3;
-   margin: 0 0 15rem 0;
-   padding-left: 1.3rem;
-  }
-
-  .pro-con-list li {
-    list-style-type: disc;
-    color: #2E2E2E;
-    font-family: 'PT Sans', 'sans serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-  }
-
-
-    .pro-con-list2 li {
-      list-style-type: disc;
-      color: #2E2E2E;
-      font-family: 'PT Sans', 'sans serif';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1.8rem;
-      line-height: 2.5rem;
-    }
-
-  .pro-con-h2 {
-    font-family: 'PT Sans', 'sans serif';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 2.3rem;
-    padding-bottom: 1rem;
-    color: #2E2E2E;
-  }
+.pro-con-h2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding-bottom: 1rem;
+  color: #2E2E2E;
+}
 
 /* Early Prototyping Conclusions */
+
 .protoyping-con-section {
   width: 100%;
   background: #2E2E2E;
@@ -845,28 +829,26 @@ background: #fff;
   padding: 16rem 0 0 0;
 }
 
-
-
 /* Branding */
 
 .Branding-Section {
-width: 100%;
-background: #fff;
+  width: 100%;
+  background: #fff;
 }
 
 .Branding-head {
- width: 90rem;
- margin: 0 auto;
- padding-top: 15rem;
+  width: 90rem;
+  margin: 0 auto;
+  padding-top: 15rem;
 }
 
 .Branding-images {
- width: 100%;
- display: flex;
- align-items: center;
- flex-direction: column;
- justify-content: center;
- padding: 0 0 10rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 10rem 0;
 }
 
 .Brand-image1 {
@@ -875,35 +857,17 @@ background: #fff;
   padding: 5rem 0 2rem 0;
 }
 
-
 .Brand-image2 {
   max-width: 50%;
   object-fit: contain;
   padding: 5rem 0 2rem 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Final Brand Deliverables */
 
 .Brand-Deliverables {
-width: 100%;
-background: #F0F0F0;
+  width: 100%;
+  background: #F0F0F0;
 }
 
 .BD-head {
@@ -912,27 +876,25 @@ background: #F0F0F0;
  padding: 16rem 0 18rem 0;
 }
 
-
 .cta-3 {
-    color: #2E2E2E;
-    background-color: ##F0F0F0;
-    font-size: 1.8rem;
-    font-family: 'Poppins Black', sans-serif;
-    font-style: black;
-    font-weight: black;
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 20.3rem;
-    height: 5.6rem;
-    left: 22rem;
-    top: 48.9rem;
-    border: .5rem solid #2E2E2E;
-    box-sizing: border-box;
-    padding-left: 2rem;
+  color: #2E2E2E;
+  background-color: ##F0F0F0;
+  font-size: 1.8rem;
+  font-family: 'Poppins Black', sans-serif;
+  font-style: black;
+  font-weight: black;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  border: .5rem solid #2E2E2E;
+  box-sizing: border-box;
+  padding-left: 2rem;
 }
-
 
 .cta-3:hover {
   color: #fff;
@@ -946,12 +908,11 @@ background: #F0F0F0;
   padding-top: 7.6rem;
 }
 
-
 /* Final Designs */
 
 .Final-Designs {
-width: 100%;
-background: #fff;
+  width: 100%;
+  background: #fff;
 }
 
 .FD-head {
@@ -960,7 +921,7 @@ background: #fff;
  padding-top: 15rem;
 }
 
-.FD-images{
+.FD-images {
  width: 100%;
  display: flex;
  align-items: center;
@@ -975,7 +936,6 @@ background: #fff;
   padding: 6rem 0 0 0;
 }
 
-
 /* Conclusion Image*/
 
 .Conclusion-image {
@@ -985,7 +945,7 @@ background: #fff;
 
 .bloon-3-screen {
   max-width: 100%;
- height: auto;
+  height: auto;
   object-fit: contain;
 }
 
