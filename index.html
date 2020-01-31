@@ -6,50 +6,54 @@
      <title>Portfolio | Justin Thrift</title>
      <link rel="stylesheet" href="styles/reset.css">
      <link rel="stylesheet" href="styles/main.css">
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Poppins&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|PT+Sans|Poppins:400,600,700,900&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
    </head>
     <body>
 <!-- navigation -->
-  <nav>
+  <div id="navbar">
     <div class="jt_logo">
       <a href="index.html">
         <img src="media/images/logo.svg" alt="Justin Thrift Logo">
       </a>
-    </div>
-    <div class="top"></div>
+  </div>
+  <div class="top"></div>
     <div class="nav_links">
-      <ul>
-        <li class="About">
-          <a href="pages/About.html">About</a>
-        </li>
-        <li>
-          <a href="pages/Projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="pages/Contact.html">Contact</a>
-        </li>
-      </ul>
+      <li class="Active-nav">
+        <a class="active" href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="About.html">About</a>
+      </li>
+      <li>
+        <a href="Contact.html">Contact</a>
+      </li>
     </div>
-  </nav>
+  </div>
 <!-- Hero Section -->
   <section class="hero">
     <div class="hero-inner">
       <div class="vl1"></div>
         <h1>I’m Justin Thrift, a Product Designer<br>from Brooklyn, New York.</h1>
-        <h3>I design with a user-centered, research-based approach. I operate with a growth mindset,<br>drawing on a background in project management to inform business strategy in my work.</h3>
+        <h3>I design with a user-centered, research-based approach. I operate with a growth mindset, drawing on a background in project management to inform business strategy in my work.</h3>
         <a href="About.html" class="cta-1">more about me</a>
     </div>
   </section>
+
+  <div class="Case-Study-Header">
+    <h3 id="h3h">Recent work and case studies <div class="arrow"><i class="fas fa-level-down-alt"></i></div></h3>
+
+  </div>
+
 <!-- First Case Study -->
   <section class="case-study1">
-    <div class="vl2"></div>
     <div class="bloon-illo">
       <a href="Project1.html">
         <img class=".bloon-illo" src="media/images/bloon-illo.svg">
       </a>
     </div>
     <div class="bloon">
+      <div class="vl2"></div>
       <h2>Bloon</h2>
       <p>A light-weight cloud storage<br>solution that prioritizes users.</p>
       <a href="Project1.html" class="cta-1">read case study</a>
@@ -57,13 +61,13 @@
   </section>
 <!-- Second Case Study -->
   <section class="case-study2">
-    <div class="vl3"></div>
     <div class="busy-bus-image">
       <a href="Project2.html">
         <img class="busy-bus-image" src="media/images/Busy-Bus.png">
       </a>
     </div>
     <div class="busy-bus">
+      <div class="vl3"></div>
       <h2>BusyBus</h2>
       <p>A public transportation app that<br>helps riders stay in the know.</p>
       <a href="Project2.html" class="cta-1">read case study</a>
@@ -72,8 +76,11 @@
 <!-- My SKills -->
   <section class="skills-section">
     <h1 class="sh1">Skills</h1>
+  </div>
+
     <div class="skills-box">
       <ul class="skills-list">
+        <img class="icons" img src="media/images/circle-icon.png">
         <h2 class="sh2">Research + Discovery</h2>
           <li>Identifying Problems</li>
           <li>User Research</li>
@@ -82,6 +89,7 @@
           <li>User Testing</li>
       </ul>
       <ul class="skills-list">
+        <img class="icons" img src="media/images/tri-icon.png">
         <h2 class="sh2">Information Architecture</h2>
           <li>Card Sorting</li>
           <li>User Stories and Journey Maps</li>
@@ -90,6 +98,7 @@
           <li>User Testing</li>
       </ul>
       <ul class="skills-list">
+        <img class="icons" img src="media/images/star-icon.png">
         <h2 class="sh2">Visual Design</h2>
           <li>Sketching</li>
           <li>Wireframing</li>
@@ -99,6 +108,7 @@
           <li>User Testing</li>
       </ul>
       <ul class="skills-list">
+        <img class="icons" img src="media/images/rectangle-icon.png">
         <h2 class="sh2">Software & Etc</h2>
           <li>HTML/CSS/JS</li>
           <li>Illustrator</li>
@@ -119,11 +129,12 @@
         <a href="About.html" class="cta-2">email me</a>
       </div>
       <div class="footer-icons">
-        <a href="https://www.linkedin.com/in/justinthrift/"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://dribbble.com/justinthrift"><i class="fab fa-dribbble fa-2x"></i></a>
-        <a href="https://www.twitter.com/justinthrift/"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="https://www.instagram/justinthrift/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/justinthrift/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://dribbble.com/justinthrift" target="_blank"><i class="fab fa-dribbble fa-2x"></i></a>
+        <a href="https://www.twitter.com/justinthrift/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/justinthrift/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
       </div>
     </footer>
+
   </body>
  </html>
