@@ -1120,3 +1120,11 @@ margin-right: 31rem;
 
 
 /* Media Queries */
+
+
+
+@media only screen and (max-width: 660px) {
+  html {
+      font-size: 3px;
+  }
+}
