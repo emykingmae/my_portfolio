@@ -87,7 +87,7 @@ a:hover {
 .Case-Study-Header {
   width: 75%;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -125,6 +125,18 @@ h1 {
   line-height: 7.2rem;
   color: #431FA8;
 }
+
+.hero-h1 {
+  font-family: 'Poppins', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  color: #431FA8;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 1.3rem;
+}
+
 
 h2 {
   font-family: 'Poppins', 'sans serif';
@@ -255,30 +267,14 @@ p {
 .bloon-illo {
   width: 52.2rem;
   height: 32.4rem;
+  object-fit: contain;
 }
 
 .bloon {
-  padding-left: 17.5rem;
+  margin-left: 17.5rem;
   width: 50rem;
-}
-
-.vl1 {
-  float: left;
-  width: .8rem;
-  height: 11rem;
-  background: #FFC3C3;
-  color: #FFC3C3;
-  margin:1.5rem 2rem 0 0;
-}
-
-
-.vl2 {
-  float: left;
-  width: .8rem;
-  height: 9rem;
-  background: #FFC3C3;
-  color: #FFC3C3;
-  margin:1rem 2rem 0 0;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
 }
 
 .vl3 {
@@ -306,8 +302,10 @@ p {
 }
 
 .busy-bus {
-  padding-left: 12.8rem;
+  margin-left: 11rem;
   width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
 }
 
 .skills-section {
@@ -1125,6 +1123,9 @@ margin-right: 31rem;
 
 @media only screen and (max-width: 660px) {
   html {
-      font-size: 3px;
+      font-size: 6.5px;
+      max-width: 70%;
+
+
   }
 }
