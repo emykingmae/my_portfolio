@@ -34,7 +34,7 @@ a {
   color: #2E2E2E;
   font-family: 'Open Sans', 'sans serif';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@ a {
 a.active {
 font-family: 'Open Sans', 'sans serif';
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 border-bottom: .5rem solid #FFC3C3;
 }
 
@@ -50,7 +50,7 @@ border-bottom: .5rem solid #FFC3C3;
   color: #431FA8;
   font-family: 'Open Sans', 'sans serif';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.8rem;
 }
 
@@ -95,7 +95,7 @@ a:hover {
 #h3h {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.6rem;
   padding-top: 2rem;
   color: #B0B0B0;
@@ -118,7 +118,7 @@ padding-left: 3rem;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: 700;
   font-size: 4.8rem;
@@ -129,16 +129,16 @@ h1 {
 h2 {
   font-family: 'Poppins', 'sans serif';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.8rem;
   color: #2E2E2E;
 }
 
 h3 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', 'sans-serif';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.6rem;
   line-height: 3.4rem;
   padding-top: 2rem;
@@ -146,18 +146,18 @@ h3 {
 }
 
 p {
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   color: #2E2E2E;
   line-height: 2.7rem;
 }
 
 .bold-p {
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.8rem;
   color: #2E2E2E;
   line-height: 2.7rem;
@@ -167,9 +167,8 @@ p {
   margin-top: 4.3rem;
   background-color: #fff;
   font-size: 1.8rem;
-  font-family: 'Poppins', sans-serif;
-  font-style: black;
-  font-weight: 900;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -188,9 +187,8 @@ p {
   margin: 4.3rem 0 6.3rem 0;
   background-color: #fff;
   font-size: 1.8rem;
-  font-family: 'Poppins', sans-serif;
-  font-style: black;
-  font-weight: 900;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -209,9 +207,8 @@ p {
   color: #fff;
   background-color: #2E2E2E;
   font-size: 1.8rem;
-  font-family: 'Poppins', sans-serif;
-  font-style: black;
-  font-weight: 900;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -311,7 +308,6 @@ p {
 .busy-bus {
   padding-left: 12.8rem;
   width: 50rem;
-
 }
 
 .skills-section {
@@ -331,10 +327,6 @@ p {
 }
 
 .skills-list {
-  color: white;
-  font-family: Sans-Serif;
-  font-weight: normal;
-  font-size: 1.6rem;
   height: 72rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -344,8 +336,7 @@ p {
   list-style-type: none;
   color: #C5C5C5;
   font-family: 'PT Sans', 'sans serif';
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 3rem;
 }
@@ -354,7 +345,7 @@ p {
   font-family: 'Poppins', 'sans serif';
   font-size: 3.2rem;
   color: #FFFFFF;
-  font-weight: 900;
+  font-weight: 700;
   padding: 15rem 0 6rem 0rem;
   display: flex;
   justify-content: space-around;
@@ -407,7 +398,7 @@ footer {
 .h3-bloon {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 2.6rem;
   color: #2E2E2E;
 }
@@ -452,6 +443,7 @@ footer {
 .bloon-h2 {
   font-family: 'Poppins', 'sans serif';
   font-style: normal;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.8rem;
   padding-bottom: 3rem;
@@ -473,9 +465,6 @@ footer {
 
 .details-list {
   color: #2E2E2E;
-  font-family: Sans-Serif;
-  font-weight: normal;
-  font-size: 16px;
   height: 42rem;
   width: 90rem;
 }
@@ -484,8 +473,7 @@ footer {
   list-style-type: none;
   color: #2E2E2E;
   font-family: 'PT Sans', 'sans serif';
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.3rem;
 }
@@ -493,7 +481,7 @@ footer {
 .details-h2 {
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.3rem;
   padding-bottom: 2rem;
@@ -510,6 +498,7 @@ footer {
 .bloon-dark-h2 {
   font-family: 'Poppins', 'sans serif';
   font-style: normal;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.8rem;
   padding-bottom: 3rem;
@@ -519,7 +508,7 @@ footer {
 .p-bloon-dark {
   font-family: 'Poppins', 'sans serif';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   color: #fff;
   line-height: 2.7rem;
@@ -547,7 +536,7 @@ footer {
 figcaption {
   font-family: 'Open Sans', 'sans-serif';
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.6rem;
   color: #fff;
   padding: 1.5rem 0 10rem 0;
@@ -701,7 +690,7 @@ figcaption {
 .figcaptionblack {
   font-family: 'Open Sans', 'sans-serif';
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.2rem;
   color: #636363;
@@ -720,7 +709,7 @@ figcaption {
 .link {
   font-family: 'PT Sans', 'Open Sans';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   color: #431FA8;
 }
@@ -728,6 +717,7 @@ figcaption {
 .link-2 {
   font-family: 'Poppins', 'Open Sans';
   font-size: 1.8rem;
+  font-weight: 400;
   line-height: 2.7rem;
   color: #431FA8;
   padding: 0 3rem 0 5rem;
@@ -737,8 +727,6 @@ figcaption {
   padding-left: 1.6rem;
   color: #431FA8;
 }
-
-
 
 
 /* Sketches */
@@ -755,8 +743,9 @@ figcaption {
 }
 
 .bloon-h3 {
-  font-family: 'Poppins SemiBold', 'sans serif';
+  font-family: 'Poppins', 'sans serif';
   font-style: normal;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.8rem;
   padding-bottom: 3rem;
@@ -786,7 +775,7 @@ figcaption {
 .figcaptionblack2 {
   font-family: 'Open Sans', 'sans-serif';
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.2rem;
   color: #636363;
@@ -841,9 +830,9 @@ figcaption {
 
 .pro-con-list {
   color: #2E2E2E;
-  font-family: Sans-Serif;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: 'PT Sans', 'Sans-Serif';
+  font-weight: 400;
+  font-size: 1.6rem;
   width: 100rem;
   list-style-position: inside;
   border-left: .8rem solid #41BC72;
@@ -853,9 +842,9 @@ figcaption {
 
 .pro-con-list2 {
   color: #2E2E2E;
-  font-family: Sans-Serif;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: 'PT Sans', 'Sans-Serif';
+  font-weight: 400;
+  font-size: 1.6rem;
   width: 100rem;
   list-style-position: inside;
   border-left: .8rem solid #FFC3C3;
@@ -868,7 +857,7 @@ figcaption {
   color: #2E2E2E;
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
@@ -878,7 +867,7 @@ figcaption {
   color: #2E2E2E;
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
@@ -886,7 +875,7 @@ figcaption {
 .pro-con-h2 {
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.3rem;
   padding-bottom: 1rem;
@@ -957,10 +946,8 @@ figcaption {
 .cta-3 {
   color: #2E2E2E;
   background-color: ##F0F0F0;
-  font-size: 1.8rem;
-  font-family: 'Poppins Black', sans-serif;
-  font-style: black;
-  font-weight: black;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -972,6 +959,7 @@ figcaption {
   border: .5rem solid #2E2E2E;
   box-sizing: border-box;
   padding-left: 2rem;
+  transition: all .2s;
 }
 
 .cta-3:hover {
@@ -1087,9 +1075,7 @@ margin-right: 40rem;
 display: flex;
 flex-direction: row-reverse;
 margin-right: 31rem;
-
 }
-
 
 .vl7 {
   float: left;
@@ -1130,7 +1116,6 @@ margin-right: 31rem;
   height: auto;
   object-fit: contain;
 }
-
 
 
 
