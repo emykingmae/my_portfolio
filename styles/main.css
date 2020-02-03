@@ -69,6 +69,7 @@ border-bottom: .5rem solid #FFC3C3;
   color: #FFC3C3;
 }
 
+
 .jt_logo {
   margin-left: 18rem;
   width: 6.6rem;
@@ -234,7 +235,6 @@ p {
   padding-left: 5.5rem;
   transition: all .2s;
 }
-
 
 .cta-2:hover {
   color: #2E2E2E;
@@ -1119,94 +1119,56 @@ margin-right: 31rem;
 
 /* Media Queries */
 
-
-
 @media only screen and (max-width: 660px) {
 
-.hero-h1 {
-  font-family: 'Poppins', 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.2rem;
-  line-height: 3.3rem;
-  color: #431FA8;
-  border-left: .8rem solid #FFC3C3;
-}
-.hero-inner {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 8rem;
-}
-
-.hero {
-  height: 48rem;
+.wrapper {
   width: 100%;
-  background-image: url("../media/images/shapes-bg.png");
-  background-size: contain;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  margin-top: 6rem;
+  margin: 0 auto;
 }
 
-h3 {
-  font-family: 'PT Sans', 'sans-serif';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 2.3rem;
-  padding-top: 2rem;
-  color: #2E2E2E;
-}
+  html {
+    font-size: 9px;
+  }
 
-.cta-1 {
-  margin-top: 4.3rem;
-  background-color: #fff;
-  font-family: 'Poppins', 'sans-serif';
-  font-weight: 700;
-  font-size: 1.6rem;
+.case-study1 {
+  margin-top: 8rem;
+  width: 100%;
+  height: 80rem;
+  background: #F0F0F0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  width: 17.7rem;
-  height: 4.6rem;
-  left: 3.7rem;
-  top: 37.5rem;
-  border: .5rem solid #2E2E2E;
-  box-sizing: border-box;
-  padding-left: 2.1rem;
-  transition: all .2s;
+  justify-content: center;
 }
 
-#h3h {
-  font-family: 'PT Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.6rem;
-  padding-top: 2rem;
-  color: #B0B0B0;
+.case-study2 {
+  width: 100%;
+  height: 100rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.busy-bus {
+  margin-top: 5rem;
+}
+
+.bloon {
+  margin-top: 5rem;
+}
+
+.nav_links {
+  width: 55%;
 }
 
 .jt_logo {
   margin-left: 2rem;
-}
-#navbar {
-  position: fixed;
-  top: 0px;
-  background-color: #fff;
-  height: 8.5rem;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.11);
+  width: 6.6rem;
 }
 
-.top {
-  background: #3B95FF;
-  height: .8rem;
-  position: absolute;
-  left: 0rem;
-  top: 0rem;
-  width: 100%;
-}
+
 
 
 }
