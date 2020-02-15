@@ -7,10 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  min-width: 100%;
+/* .wrapper {
+  min-width: 20%;
   overflow: hidden;
-}
+} */
 
 .top {
   background: #3B95FF;
@@ -30,9 +30,9 @@ html {
   justify-content: space-between;
   height: 10rem;
   width: 100%;
-  margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.11);
+
 }
 
 a {
@@ -61,12 +61,8 @@ border-bottom: .5rem solid #FFC3C3;
 
 .nav_links li {
   display: inline;
-  margin: 0 2rem;
   text-decoration: none;
-}
-
-.nav_links {
-  width: 30%;
+  padding-right: 5rem;
 }
 
 #nav_links a:hover {
@@ -74,10 +70,10 @@ border-bottom: .5rem solid #FFC3C3;
   color: #FFC3C3;
 }
 
-
 .jt_logo {
-  margin-left: 18rem;
-  width: 6.6rem;
+  margin-left: 5rem;
+  width: 7rem;
+  padding-top: 2rem;
 }
 
 a:hover {
@@ -87,7 +83,7 @@ a:hover {
 .hero-inner {
   width: 75%;
   margin: 0 auto;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .Case-Study-Header {
@@ -115,7 +111,7 @@ color: #3B95FF;
 
 
 .hero {
-  height: 65rem;
+  height: 70rem;
   width: 100%;
   background-image: url("../media/images/shapes-bg.png");
   background-size: contain;
@@ -128,23 +124,45 @@ h1 {
   font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 7.2rem;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
   color: #431FA8;
+}
+
+
+.H1-about {
+  font-family: 'Poppins', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 5.4rem;
+  color: #431FA8;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 1.3rem;
 }
 
 .hero-h1 {
   font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 7.2rem;
+  font-size: 4.0rem;
+  line-height: 6rem;
   color: #431FA8;
   border-left: .8rem solid #FFC3C3;
   padding-left: 1.3rem;
-  width: 80%;
+  width: 100%;
 }
 
+.h3-hero {
+  font-family: 'PT Sans', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  padding-top: 3rem;
+  color: #2E2E2E;
+  width: 100%;
+}
 
 h2 {
   font-family: 'Poppins', 'sans serif';
@@ -159,21 +177,10 @@ h3 {
   font-family: 'PT Sans', 'sans-serif';
   font-style: normal;
   font-weight: 700;
-  font-size: 2.6rem;
-  line-height: 3.4rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
   padding-top: 2rem;
   color: #2E2E2E;
-}
-
-h3 {
-  font-family: 'PT Sans', 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.6rem;
-  line-height: 3.4rem;
-  padding-top: 2rem;
-  color: #2E2E2E;
-  width: 80%;
 }
 
 p {
@@ -274,24 +281,24 @@ p {
 .case-study1 {
   margin-top: 8rem;
   width: 100%;
-  height: 68.5rem;
+  height: auto;
   background: #F0F0F0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .bloon-illo {
-  width: 52.2rem;
-  height: 32.4rem;
-  object-fit: contain;
+  width: 80%;
+  margin-top: 15%;
 }
 
 .bloon {
-  margin-left: 17.5rem;
-  width: 50rem;
   border-left: .8rem solid #FFC3C3;
   padding-left: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 15%;
 }
 
 .vl3 {
@@ -304,47 +311,45 @@ p {
 }
 
 .case-study2 {
+  margin-top: 8rem;
   width: 100%;
-  height: 68.5rem;
+  height: auto;
   background: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .busy-bus-image {
-  width: 60.2rem;
-  height: 50.4rem;
-  object-fit: contain;
+  width: 80%;
+  margin-left: 4rem;
+  margin-top: 2%;
 }
 
 .busy-bus {
-  margin-left: 11rem;
-  width: 50rem;
   border-left: .8rem solid #FFC3C3;
   padding-left: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 40%;
 }
 
 .skills-section {
   width: 100%;
+  height: 180rem;
   background: #2E2E2E;
 }
 
 .skills-box {
-  height: 52rem;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
+  text-align: center;
 }
 
 .skills-list {
-  height: 72rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-top: 8rem;
 }
 
 .skills-list li {
@@ -361,15 +366,13 @@ p {
   font-size: 3.2rem;
   color: #FFFFFF;
   font-weight: 700;
-  padding: 15rem 0 6rem 0rem;
-  display: flex;
-  justify-content: space-around;
+  padding: 15rem 0 0 0rem;
+  text-align: center;
 }
 
 .icons {
   width: 2.5rem;
   height: 2.5rem;
-  object-fit: contain;
 }
 
 .sh2 {
@@ -395,7 +398,7 @@ footer {
 }
 
 .footer-text p {
-  padding: 1rem 0 3rem 0;
+  padding: 1rem 8rem 5rem 8rem;
 }
 
 .footer-icons {
@@ -404,8 +407,7 @@ footer {
 }
 
 .footer-icons i {
-  padding-right: 7rem;
-  padding-left: 7rem;
+  padding: 0 3rem 0 4rem;
 }
 
 /* Bloon Case Study */
@@ -465,6 +467,7 @@ footer {
   padding-bottom: 3rem;
   color: #431FA8;
 }
+
 
 .project-details {
   width: 100%;
@@ -631,8 +634,8 @@ figcaption {
   padding: 10rem 0 5rem 0;
 }
 
-
 /* Competitive Analysis */
+
 .CA-section {
   width: 100%;
   background: #fff;
@@ -743,7 +746,6 @@ figcaption {
   padding-left: 1.6rem;
   color: #431FA8;
 }
-
 
 /* Sketches */
 
@@ -1049,10 +1051,10 @@ figcaption {
 /* ABOUT ME page */
 
 .about-hero-inner {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 8rem;
-  padding-right: 30rem;
+  width: 80%;
+  margin: auto;
+  padding-top: 5rem;
+  /* padding-right: 30rem; */
 }
 
 .about-hero {
@@ -1062,44 +1064,33 @@ figcaption {
 
 .bg-rec {
 width: 100%;
+margin-top: 40%;
 position: absolute;
-margin-top: 6.5rem;
 z-index: -2;
 }
 
 .prof-pic {
-  max-width: 30rem;
-  position: absolute;
-  z-index: -2;
+  max-width: 60%;
+  z-index: -1;
   border-radius: 50%;
   border: 8px solid #3B95FF;
 }
 
 #prof {
 display: flex;
-flex-direction: row-reverse;
-margin-right: 40rem;
+justify-content: center;
 }
 
 .triangle {
-  max-width: 15rem;
+  max-width: 50%;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 }
 
 #tri {
 display: flex;
 flex-direction: row-reverse;
-margin-right: 31rem;
-}
-
-.vl7 {
-  float: left;
-  width: .8rem;
-  height: 6rem;
-  background: #FFC3C3;
-  color: #FFC3C3;
-  margin:1rem 2rem 0 0;
+margin-right: 1rem;
 }
 
 .About-me-section {
@@ -1108,16 +1099,15 @@ margin-right: 31rem;
 }
 
 .About-me-head {
-  width: 75%;
+  width: 80%;
   margin: auto;
   padding-top: 10rem;
-  padding-right: 30rem;
+  /* padding-right: 30rem; */
 }
 
-
 .Design-beliefs {
-  width: 40%;
-  margin-left: 30rem;
+  width: 80%;
+  margin-left: 10%;
   padding-left: 3rem;
   border-left: .7rem solid #FFC3C3;
 }
@@ -1139,26 +1129,118 @@ margin-right: 31rem;
 
 
 
-@media only screen and (max-width: 660px) {
+@media only screen and (min-width: 1020px) {
 
 .wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-  html {
-    font-size: 9px;
-  }
+.top {
+  background: #3B95FF;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.11);
+}
+
+a {
+  color: #2E2E2E;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+a.active {
+font-family: 'Open Sans', 'sans serif';
+font-style: normal;
+font-weight: 700;
+border-bottom: .5rem solid #FFC3C3;
+}
+
+.Active-nav {
+  color: #431FA8;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.nav_links li {
+  display: inline;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+#nav_links a:hover {
+  text-decoration: highlight;
+  color: #FFC3C3;
+}
+
+
+.jt_logo {
+  margin-left: 18rem;
+  width: 6.6rem;
+}
+
+a:hover {
+  color: #431FA8;
+}
+
+.hero-inner {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.h3-hero {
+  font-family: 'PT Sans', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  padding-top: 3rem;
+  color: #2E2E2E;
+  width: 100%;
+}
 
 .case-study1 {
   margin-top: 8rem;
   width: 100%;
-  height: 80rem;
+  height: 100rem;
   background: #F0F0F0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.bloon-illo {
+  width: 50%;
+  object-fit: contain;
+}
+
+.bloon {
+  margin-left: 17.5rem;
+  width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
 }
 
 .case-study2 {
@@ -1166,37 +1248,206 @@ margin-right: 31rem;
   height: 100rem;
   background: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.busy-bus-image {
+  width: 60%;
+  object-fit: contain;
+}
+
 .busy-bus {
-  margin-top: 5rem;
+  margin-left: 11rem;
+  width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
 }
 
-.bloon {
-  margin-top: 5rem;
-}
+.skills-section {
+  width: 100%;
+  background: #2E2E2E;
 
-.nav_links {
-  width: 55%;
-}
-
-.jt_logo {
-  margin-left: 2rem;
-  width: 6.6rem;
 }
 
 .skills-box {
-
-  min-width: 100%;
+  height: 52rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.skills-list {
+  height: 72rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.skills-list li {
+  list-style-type: none;
+  color: #C5C5C5;
+  font-family: 'PT Sans', 'sans serif';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.sh1 {
+  font-family: 'Poppins', 'sans serif';
+  font-size: 3.2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 15rem 0 6rem 0rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.sh2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 100%;
+  height: 43rem;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text p {
+  padding: 1rem 0 3rem 0;
+}
+
+.footer-icons {
+  display: inline;
+  padding-top: 5rem;
+}
+
+.footer-icons i {
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
 
 }
 
 
+@media only screen and (max-width: 480px) {
 
+  .nav_links li {
+    display: inline;
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-right: 0rem;
+  }
+
+  a {
+    color: #2E2E2E;
+    font-family: 'Open Sans', 'sans serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  .jt_logo {
+    display: none;
+  }
+
+  .hero {
+    height: 80rem;
+    width: 100%;
+    background-image: url("../media/images/shapes-bg.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 12rem;
+  }
+
+  .hero-h1 {
+    font-family: 'Poppins', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.0rem;
+    line-height: 4.5rem;
+    color: #431FA8;
+    border-left: .8rem solid #FFC3C3;
+    padding-left: 1.3rem;
+    width: 100%;
+  }
+
+  h2 {
+    font-family: 'Poppins', 'sans serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 4.8rem;
+    color: #2E2E2E;
+  }
+
+
+  .sh1 {
+    font-family: 'Poppins', 'sans serif';
+    font-size: 2.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 15rem 0 0 0rem;
+    text-align: center;
+  }
+
+  .sh2 {
+    font-family: 'PT Sans', 'sans serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
+
+  footer {
+    width: 100%;
+    height: 50rem;
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-text p {
+    padding: 1rem 3rem 5rem 3rem;
+  }
+
+  .footer-icons {
+    display: inline;
+    padding-top: 5rem;
+  }
+
+  .footer-icons i {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 
 }
