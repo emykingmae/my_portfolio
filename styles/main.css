@@ -291,14 +291,14 @@ p {
 
 .bloon-illo {
   width: 80%;
-  margin-top: 15%;
+  margin-top: 15rem;
 }
 
 .bloon {
   border-left: .8rem solid #FFC3C3;
   padding-left: 3rem;
   margin-top: 5rem;
-  margin-bottom: 15%;
+  margin-bottom: 15rem;
 }
 
 .vl3 {
@@ -324,14 +324,14 @@ p {
 .busy-bus-image {
   width: 80%;
   margin-left: 4rem;
-  margin-top: 2%;
+
 }
 
 .busy-bus {
   border-left: .8rem solid #FFC3C3;
   padding-left: 3rem;
   margin-top: 5rem;
-  margin-bottom: 40%;
+  margin-bottom: 15rem;
 }
 
 .skills-section {
@@ -349,7 +349,7 @@ p {
 }
 
 .skills-list {
-  padding-top: 8rem;
+  padding-top: 10rem;
 }
 
 .skills-list li {
@@ -366,7 +366,7 @@ p {
   font-size: 3.2rem;
   color: #FFFFFF;
   font-weight: 700;
-  padding: 15rem 0 0 0rem;
+  padding: 10rem 0 0 0rem;
   text-align: center;
 }
 
@@ -1082,7 +1082,7 @@ justify-content: center;
 }
 
 .triangle {
-  max-width: 50%;
+  width: 35%;
   position: absolute;
   z-index: -2;
 }
@@ -1126,8 +1126,6 @@ margin-right: 1rem;
 
 
 /* Media Queries */
-
-
 
 @media only screen and (min-width: 1020px) {
 
@@ -1194,7 +1192,6 @@ border-bottom: .5rem solid #FFC3C3;
   color: #FFC3C3;
 }
 
-
 .jt_logo {
   margin-left: 18rem;
   width: 6.6rem;
@@ -1208,6 +1205,7 @@ a:hover {
   width: 75%;
   margin: 0 auto;
   padding-top: 3rem;
+  padding-right: 25rem;
 }
 
 .h3-hero {
@@ -1224,15 +1222,17 @@ a:hover {
 .case-study1 {
   margin-top: 8rem;
   width: 100%;
-  height: 100rem;
+  height: 68.5rem;
   background: #F0F0F0;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 .bloon-illo {
-  width: 50%;
+  width: 50.2rem;
+  height: 50.4rem;
   object-fit: contain;
 }
 
@@ -1245,15 +1245,17 @@ a:hover {
 
 .case-study2 {
   width: 100%;
-  height: 100rem;
+  height: 68.5rem;
   background: #fff;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 .busy-bus-image {
-  width: 60%;
+  width: 60.2rem;
+  height: 50.4rem;
   object-fit: contain;
 }
 
@@ -1266,6 +1268,7 @@ a:hover {
 
 .skills-section {
   width: 100%;
+  height: 90rem;
   background: #2E2E2E;
 
 }
@@ -1301,7 +1304,7 @@ a:hover {
   font-size: 3.2rem;
   color: #FFFFFF;
   font-weight: 700;
-  padding: 15rem 0 6rem 0rem;
+  padding: 15rem 0 4rem 0rem;
   display: flex;
   justify-content: space-around;
 }
@@ -1346,6 +1349,91 @@ footer {
 .footer-icons i {
   padding-right: 7rem;
   padding-left: 7rem;
+}
+
+/* Media Queries ABOUT ME Desktop */
+
+.about-hero-inner {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-right: 30rem;
+}
+
+.about-hero {
+  width: 100%;
+  margin: 14rem 0 8rem 0;
+}
+
+.H1-about {
+  font-family: 'Poppins', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.4rem;
+  color: #431FA8;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 1.3rem;
+}
+
+.bg-rec {
+width: 100%;
+position: absolute;
+margin-top: 6.5rem;
+z-index: -2;
+}
+
+.prof-pic {
+  max-width: 30rem;
+  margin-left: 15rem;
+  position: absolute;
+  z-index: -2;
+  border-radius: 50%;
+  border: 8px solid #3B95FF;
+}
+
+.triangle {
+  max-width: 15rem;
+  position: absolute;
+
+  z-index: -1;
+}
+
+#tri {
+display: flex;
+flex-direction: row-reverse;
+margin-right: 27%;
+}
+
+.About-me-section {
+  width: 100%;
+  background: #fff;
+}
+
+.About-me-head {
+  width: 75%;
+  margin: auto;
+  padding-top: 10rem;
+  padding-right: 30rem;
+}
+
+
+.Design-beliefs {
+  width: 40%;
+  margin-left: 30rem;
+  padding-left: 3rem;
+  border-left: .7rem solid #FFC3C3;
+}
+
+.jt-in-paris {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.jt-paris {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 }
