@@ -419,6 +419,1017 @@ footer {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 2rem;
+  color: #2E2E2E;
+  text-align: center;
+}
+
+.bloon-hero {
+  width: 80%;
+  margin: auto;
+  padding-top: 12rem;
+}
+
+.bloon-hero-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloon-hero-image {
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.bloon-5-screen {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Summary */
+
+.summary-section {
+  width: 100%;
+  background: #fff;
+}
+
+.summary-head {
+  width: 80%;
+  padding-top: 7rem;
+  margin: auto;
+}
+
+.bloon-h2 {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #431FA8;
+}
+
+.project-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.details-box {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+
+.details-list {
+  color: #2E2E2E;
+  height: auto;
+}
+
+.details-list li {
+  list-style-type: none;
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.details-h2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding-bottom: 2rem;
+  padding-top: 8rem;
+  color: #2E2E2E;
+}
+
+/* The Problem - Section */
+
+.problem-section {
+  width: 100%;
+  background: #2E2E2E;
+}
+
+.bloon-dark-h2 {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+.p-bloon-dark {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+}
+
+.problem-inner {
+  width: 80%;
+  margin: auto;
+  padding: 12rem 0 0 0;
+}
+
+.ct-tweet {
+  width: 85%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tweet {
+  margin: 6rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figcaption {
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #fff;
+  padding: 1.5rem 0 10rem 0;
+}
+
+/* The Solution */
+
+.solution-section {
+  width: 100%;
+  background: #fff;
+}
+
+.solution-head {
+  width: 80%;
+  margin: auto;
+  padding-top: 12rem;
+}
+
+.solution-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-img {
+  max-width: 90%;
+  padding-top: 5rem;
+}
+
+/* User Research */
+
+.UR-section {
+  width: 100%;
+  background: #fff;
+}
+
+.UR-head {
+  width: 80%;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+/* User Personas */
+
+ .User-Personas {
+  width: 100%;
+  background: #fff;
+  padding-top: 10rem;
+}
+
+.UP-head {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ .POVs {
+   max-width: 90%;
+   object-fit: contain;
+   padding-top: 6rem;
+}
+
+.povs-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.see-more-link2 {
+  width: 80%;
+  margin: auto;
+  padding: 10rem 0 5rem 0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #431FA8;
+}
+
+/* Competitive Analysis */
+
+.CA-section {
+  width: 100%;
+  background: #fff;
+}
+
+.CA-head {
+  width: 80%;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.ca-image {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+}
+
+/* User Stories */
+
+ .User-Stories {
+  width: 100%;
+  background: #fff;
+  padding-top: 10rem;
+}
+
+.US-head {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.US-image {
+  max-width: 90%;
+  padding: 4rem 0 10rem 0;
+}
+
+.US-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* User Flows */
+
+ .User-Flows {
+  width: 100%;
+  background: #fff;
+}
+
+.UF-head {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ .UF-image {
+   max-width: 90%;
+   padding: 6rem 0 0 0;
+}
+
+.UF-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.figcaptionblack {
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #636363;
+  padding: 1.5rem 0 3rem 0;
+  text-align: center;
+  width: 70%;
+}
+
+.see-more-link {
+  width: 90%;
+  margin: auto;
+  padding: 10rem 0 5rem 0;
+  font-family: 'PT Sans', 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #431FA8;
+}
+
+.see-more-link i {
+  padding-left: 1.6rem;
+  color: #431FA8;
+}
+
+/* Sketches */
+
+.Sketching-section {
+  width: 100%;
+  background: #F0F0F0;
+}
+
+.sketching-head {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10rem 0 6rem 0;
+}
+
+.bloon-h3 {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding-bottom: 3rem;
+  color: #2E2E2E;
+}
+
+.sketching-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.sketching-image1 {
+  max-width: 90%;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sketching-image2 {
+  max-width: 90%;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.figcaptionblack2 {
+  font-family: 'Open Sans', 'sans-serif';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #636363;
+  padding: 1.5rem 0 3rem 0;
+  text-align: center;
+  width: 80%;
+}
+
+/* Wireframes */
+
+.Wireframes-section {
+  width: 100%;
+  background: #F0F0F0;
+}
+
+.Wireframe-head {
+  width: 80%;
+  margin: 0 auto;
+  padding: 6rem 0 6rem 0;
+}
+
+.Wireframe-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.Wireframe-image1 {
+  max-width: 90%;
+}
+
+.Wireframe-image2 {
+  max-width: 90%;
+  margin-top: 8rem;
+}
+
+.Wireframe-image3 {
+  max-width: 90%;
+  margin-top: 8rem;
+}
+
+.pro-con-details {
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0 0 0;
+}
+
+.pro-con-box {
+  width: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.pro-con-list {
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'Sans-Serif';
+  font-weight: 400;
+  font-size: 1.6rem;
+  width: 100rem;
+  list-style-position: inside;
+  border-left: .8rem solid #41BC72;
+  padding-left: 1.3rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.pro-con-list2 {
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'Sans-Serif';
+  font-weight: 400;
+  font-size: 1.6rem;
+  width: 100rem;
+  list-style-position: inside;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 1.3rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.pro-con-list li {
+
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.pro-con-list2 li {
+  color: #2E2E2E;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.pro-con-h2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding-bottom: 1rem;
+  color: #2E2E2E;
+  list-style-type: none;
+}
+
+/* Early Prototyping Conclusions */
+
+.protoyping-con-section {
+  width: 100%;
+  background: #2E2E2E;
+  padding-bottom: 12rem;
+}
+
+.PC-head {
+  width: 80%;
+  margin: auto;
+  padding: 12rem 0 0 0;
+}
+
+/* Branding */
+
+.Branding-Section {
+  width: 100%;
+  background: #fff;
+}
+
+.Branding-head {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 12rem;
+}
+
+.Branding-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 10rem 0;
+}
+
+.Brand-image1 {
+  max-width: 90%;
+  padding: 5rem 0 0 0;
+}
+
+.Brand-image2 {
+  max-width: 90%;
+}
+
+/* Final Brand Deliverables */
+
+.Brand-Deliverables {
+  width: 100%;
+  background: #F0F0F0;
+}
+
+.BD-head {
+ width: 80%;
+ margin: 0 auto;
+ padding: 12rem 0 12rem 0;
+}
+
+.cta-3 {
+  color: #2E2E2E;
+  background-color: #F0F0F0;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  border: .5rem solid #2E2E2E;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  transition: all .2s;
+}
+
+.cta-3:hover {
+  color: #fff;
+  background-color: #2E2E2E;
+  border: .5rem solid #2E2E2E;
+}
+
+.cta3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 7.6rem;
+}
+
+/* Final Designs */
+
+.Final-Designs {
+  width: 100%;
+  background: #fff;
+}
+
+.FD-head {
+ width: 80%;
+ margin: 0 auto;
+ padding-top: 12rem;
+}
+
+.FD-images {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.FD-image {
+  max-width: 90%;
+  padding: 6rem 0 0 0;
+}
+
+/* Conclusion Image*/
+
+.Conclusion-image {
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+}
+
+.bloon-3-screen {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Conclusion */
+
+.conclusion-section {
+  width: 100%;
+  background: #fff;
+}
+
+.conclusion-head {
+  width: 80%;
+  margin: auto;
+  padding: 12rem 0 12rem 0;
+}
+
+
+/* ABOUT ME page */
+
+.about-hero-inner {
+  width: 80%;
+  margin: auto;
+  padding-top: 5rem;
+  /* padding-right: 30rem; */
+}
+
+.about-hero {
+  width: 100%;
+  margin: 14rem 0 4rem 0;
+}
+
+.bg-rec {
+width: 100%;
+margin-top: 40%;
+position: absolute;
+z-index: -2;
+}
+
+.prof-pic {
+  width: 20.3rem;
+  height: 20.3rem;
+  z-index: -1;
+  border-radius: 50%;
+  border: 8px solid #3B95FF;
+}
+
+#prof {
+  display: flex;
+  justify-content: center;
+}
+
+.triangle {
+  width: 30%;
+  position: absolute;
+  z-index: -2;
+}
+
+#tri {
+display: flex;
+flex-direction: row-reverse;
+margin-right: 4rem;
+}
+
+.About-me-section {
+  width: 100%;
+  background: #fff;
+}
+
+.About-me-head {
+  width: 80%;
+  margin: auto;
+  padding-top: 10rem;
+  /* padding-right: 30rem; */
+}
+
+.Design-beliefs {
+  width: 85%;
+  margin-left: 5%;
+  padding-left: 2rem;
+  border-left: .7rem solid #FFC3C3;
+}
+
+.jt-in-paris {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.jt-paris {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 1020px) {
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  background: #3B95FF;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.11);
+}
+
+a {
+  color: #2E2E2E;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+a.active {
+font-family: 'Open Sans', 'sans serif';
+font-style: normal;
+font-weight: 700;
+border-bottom: .5rem solid #FFC3C3;
+}
+
+.Active-nav {
+  color: #431FA8;
+  font-family: 'Open Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.nav_links {
+  padding-right: 20rem;
+}
+
+.nav_links li {
+  display: inline;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+#nav_links a:hover {
+  text-decoration: highlight;
+  color: #FFC3C3;
+}
+
+.jt_logo {
+  margin-left: 18rem;
+  width: 6.6rem;
+}
+
+a:hover {
+  color: #431FA8;
+}
+
+.hero-inner {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 15rem;
+  padding-right: 25rem;
+}
+
+.h3-hero {
+  font-family: 'PT Sans', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  padding-top: 3rem;
+  color: #2E2E2E;
+  width: 100%;
+}
+
+.case-study1 {
+  margin-top: 10rem;
+  width: 100%;
+  height: 68.5rem;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloon-illo {
+  width: 50.2rem;
+  height: 50.4rem;
+  object-fit: contain;
+}
+
+.bloon {
+  margin-left: 17.5rem;
+  width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+}
+
+.case-study2 {
+  width: 100%;
+  height: 68.5rem;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.busy-bus-image {
+  width: 60.2rem;
+  height: 50.4rem;
+  object-fit: contain;
+}
+
+.busy-bus {
+  margin-left: 11rem;
+  width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+}
+
+.skills-section {
+  width: 100%;
+  height: 85rem;
+  background: #2E2E2E;
+
+}
+
+.skills-box {
+  height: 52rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.skills-list {
+  height: 72rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.skills-list li {
+  list-style-type: none;
+  color: #C5C5C5;
+  font-family: 'PT Sans', 'sans serif';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.sh1 {
+  font-family: 'Poppins', 'sans serif';
+  font-size: 3.2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 15rem 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.sh2 {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 100%;
+  height: 43rem;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text p {
+  padding: 1rem 0 3rem 0;
+}
+
+.footer-icons {
+  display: inline;
+  padding-top: 5rem;
+}
+
+.footer-icons i {
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+/* Media Queries ABOUT ME Desktop */
+
+.about-hero-inner {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-right: 30rem;
+}
+
+.about-hero {
+  width: 100%;
+  margin: 14rem 0 8rem 0;
+}
+
+.H1-about {
+  font-family: 'Poppins', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.4rem;
+  color: #431FA8;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 1.3rem;
+}
+
+.bg-rec {
+width: 100%;
+position: absolute;
+margin-top: 6.5rem;
+z-index: -2;
+}
+
+.prof-pic {
+  width: 299px;
+  height: 299px;
+  margin-left: 15rem;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  border: 8px solid #3B95FF;
+}
+
+.triangle {
+  max-width: 20rem;
+  position: absolute;
+
+  z-index: -2;
+}
+
+#tri {
+width: 75%;
+}
+
+.About-me-section {
+  width: 100%;
+  background: #fff;
+}
+
+.About-me-head {
+  width: 75%;
+  margin: auto;
+  padding-top: 10rem;
+  padding-right: 30rem;
+}
+
+.Design-beliefs {
+  width: 40%;
+  margin-left: 30rem;
+  padding-left: 3rem;
+  border-left: .7rem solid #FFC3C3;
+}
+
+.jt-in-paris {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.jt-paris {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Bloon Case Study DESKTOP */
+
+.h3-bloon {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 2.6rem;
   color: #2E2E2E;
   text-align: center;
@@ -470,7 +1481,6 @@ footer {
   padding-bottom: 3rem;
   color: #431FA8;
 }
-
 
 .project-details {
   width: 100%;
@@ -637,8 +1647,8 @@ figcaption {
   padding: 10rem 0 5rem 0;
 }
 
-/* Competitive Analysis */
 
+/* Competitive Analysis */
 .CA-section {
   width: 100%;
   background: #fff;
@@ -749,6 +1759,7 @@ figcaption {
   padding-left: 1.6rem;
   color: #431FA8;
 }
+
 
 /* Sketches */
 
@@ -1050,398 +2061,6 @@ figcaption {
   padding: 10rem 0 15rem 0;
 }
 
-
-/* ABOUT ME page */
-
-.about-hero-inner {
-  width: 80%;
-  margin: auto;
-  padding-top: 5rem;
-  /* padding-right: 30rem; */
-}
-
-.about-hero {
-  width: 100%;
-  margin: 14rem 0 4rem 0;
-}
-
-.bg-rec {
-width: 100%;
-margin-top: 40%;
-position: absolute;
-z-index: -2;
-}
-
-.prof-pic {
-  width: 20.3rem;
-  height: 20.3rem;
-  z-index: -1;
-  border-radius: 50%;
-  border: 8px solid #3B95FF;
-}
-
-#prof {
-display: flex;
-justify-content: center;
-}
-
-.triangle {
-  width: 35%;
-  position: absolute;
-  z-index: -2;
-}
-
-#tri {
-display: flex;
-flex-direction: row-reverse;
-margin-right: 1rem;
-}
-
-.About-me-section {
-  width: 100%;
-  background: #fff;
-}
-
-.About-me-head {
-  width: 80%;
-  margin: auto;
-  padding-top: 10rem;
-  /* padding-right: 30rem; */
-}
-
-.Design-beliefs {
-  width: 85%;
-  margin-left: 5%;
-  padding-left: 2rem;
-  border-left: .7rem solid #FFC3C3;
-}
-
-.jt-in-paris {
-  width: 100%;
-  padding-top: 10rem;
-}
-
-.jt-paris {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-
-
-/* Media Queries */
-
-@media only screen and (min-width: 1020px) {
-
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.top {
-  background: #3B95FF;
-  height: 1.6rem;
-  position: absolute;
-  left: 0rem;
-  top: 0rem;
-  width: 100%;
-}
-
-#navbar {
-  position: fixed;
-  top: 0px;
-  align-items: center;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  height: 10rem;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fff;
-  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.11);
-}
-
-a {
-  color: #2E2E2E;
-  font-family: 'Open Sans', 'sans serif';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8rem;
-  text-decoration: none;
-}
-
-a.active {
-font-family: 'Open Sans', 'sans serif';
-font-style: normal;
-font-weight: 700;
-border-bottom: .5rem solid #FFC3C3;
-}
-
-.Active-nav {
-  color: #431FA8;
-  font-family: 'Open Sans', 'sans serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.8rem;
-}
-
-.nav_links {
-  padding-right: 20rem;
-}
-
-.nav_links li {
-  display: inline;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-#nav_links a:hover {
-  text-decoration: highlight;
-  color: #FFC3C3;
-}
-
-.jt_logo {
-  margin-left: 18rem;
-  width: 6.6rem;
-}
-
-a:hover {
-  color: #431FA8;
-}
-
-.hero-inner {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 3rem;
-  padding-right: 25rem;
-}
-
-.h3-hero {
-  font-family: 'PT Sans', 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 3.2rem;
-  padding-top: 3rem;
-  color: #2E2E2E;
-  width: 100%;
-}
-
-.case-study1 {
-  margin-top: 8rem;
-  width: 100%;
-  height: 68.5rem;
-  background: #F0F0F0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.bloon-illo {
-  width: 50.2rem;
-  height: 50.4rem;
-  object-fit: contain;
-}
-
-.bloon {
-  margin-left: 17.5rem;
-  width: 50rem;
-  border-left: .8rem solid #FFC3C3;
-  padding-left: 3rem;
-}
-
-.case-study2 {
-  width: 100%;
-  height: 68.5rem;
-  background: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.busy-bus-image {
-  width: 60.2rem;
-  height: 50.4rem;
-  object-fit: contain;
-}
-
-.busy-bus {
-  margin-left: 11rem;
-  width: 50rem;
-  border-left: .8rem solid #FFC3C3;
-  padding-left: 3rem;
-}
-
-.skills-section {
-  width: 100%;
-  height: 85rem;
-  background: #2E2E2E;
-
-}
-
-.skills-box {
-  height: 52rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-}
-
-.skills-list {
-  height: 72rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.skills-list li {
-  list-style-type: none;
-  color: #C5C5C5;
-  font-family: 'PT Sans', 'sans serif';
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 3rem;
-}
-
-.sh1 {
-  font-family: 'Poppins', 'sans serif';
-  font-size: 3.2rem;
-  color: #FFFFFF;
-  font-weight: 700;
-  padding: 15rem 0 0 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-.icons {
-  width: 2.5rem;
-  height: 2.5rem;
-  object-fit: contain;
-}
-
-.sh2 {
-  font-family: 'PT Sans', 'sans serif';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.6rem;
-  line-height: 3.4rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  color: #FFFFFF;
-}
-
-footer {
-  width: 100%;
-  height: 43rem;
-  background: #F0F0F0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.footer-text p {
-  padding: 1rem 0 3rem 0;
-}
-
-.footer-icons {
-  display: inline;
-  padding-top: 5rem;
-}
-
-.footer-icons i {
-  padding-right: 7rem;
-  padding-left: 7rem;
-}
-
-/* Media Queries ABOUT ME Desktop */
-
-.about-hero-inner {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 8rem;
-  padding-right: 30rem;
-}
-
-.about-hero {
-  width: 100%;
-  margin: 14rem 0 8rem 0;
-}
-
-.H1-about {
-  font-family: 'Poppins', 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 5.4rem;
-  color: #431FA8;
-  border-left: .8rem solid #FFC3C3;
-  padding-left: 1.3rem;
-}
-
-.bg-rec {
-width: 100%;
-position: absolute;
-margin-top: 6.5rem;
-z-index: -2;
-}
-
-.prof-pic {
-  max-width: 30rem;
-  margin-left: 15rem;
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  border: 8px solid #3B95FF;
-}
-
-.triangle {
-  max-width: 20rem;
-  position: absolute;
-
-  z-index: -2;
-}
-
-#tri {
-width: 75%;
-}
-
-.About-me-section {
-  width: 100%;
-  background: #fff;
-}
-
-.About-me-head {
-  width: 75%;
-  margin: auto;
-  padding-top: 10rem;
-  padding-right: 30rem;
-}
-
-
-.Design-beliefs {
-  width: 40%;
-  margin-left: 30rem;
-  padding-left: 3rem;
-  border-left: .7rem solid #FFC3C3;
-}
-
-.jt-in-paris {
-  width: 100%;
-  padding-top: 10rem;
-}
-
-.jt-paris {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
 }
 
 
@@ -1498,7 +2117,6 @@ width: 75%;
     color: #2E2E2E;
   }
 
-
   .sh1 {
     font-family: 'Poppins', 'sans serif';
     font-size: 2.2rem;
@@ -1543,5 +2161,18 @@ width: 75%;
     padding-right: 2rem;
     padding-left: 2rem;
   }
+
+
+  .jt-in-paris {
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  .jt-paris {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
 
 }
