@@ -584,6 +584,7 @@ figcaption {
 
 .solution-img {
   width: 90%;
+  height: auto;
   padding-top: 5rem;
 }
 
@@ -1571,9 +1572,9 @@ figcaption {
   padding-top: 12rem;
 }
 
-
 .solution-img {
   width: 70%;
+  height: auto;
   padding-top: 5rem;
 }
 
@@ -2074,7 +2075,6 @@ figcaption {
     padding-left: 2rem;
   }
 
-
   .jt-in-paris {
     width: 100%;
     padding-top: 3rem;
@@ -2085,6 +2085,5 @@ figcaption {
     height: auto;
     object-fit: contain;
   }
-
 
 }
