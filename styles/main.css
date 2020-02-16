@@ -1064,6 +1064,7 @@ figcaption {
 
 .bbtk {
   width: 30%;
+  height: auto;
 }
 
 .bb-box {
@@ -1072,6 +1073,7 @@ figcaption {
   align-content: center;
   justify-content: center;
 }
+
 
 
 /* ABOUT ME page */
@@ -2019,8 +2021,7 @@ figcaption {
 }
 }
 
-
-/* COMING SOON Desktop */
+/* COMING SOON tablets */
 
 @media only screen and (min-width: 480px) {
 .TK-head {
@@ -2034,8 +2035,9 @@ figcaption {
 .bbtk {
   width: 8%;
 }
-
 }
+
+/* iPhone media queries*/
 
 
 @media only screen and (max-width: 480px) {
