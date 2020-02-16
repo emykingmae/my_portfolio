@@ -1422,18 +1422,11 @@ width: 75%;
 
 /* Bloon Case Study DESKTOP */
 
-.h3-bloon {
-  font-family: 'PT Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.6rem;
-  color: #2E2E2E;
-  text-align: center;
-}
+
 
 .bloon-hero {
   width: 100%;
-  margin-top: 14rem;
+  margin-top: 12rem;
 }
 
 .bloon-hero-inner {
@@ -1445,13 +1438,12 @@ width: 75%;
 
 .bloon-hero-image {
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 12rem;
 }
 
 .bloon-5-screen {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 /* Summary */
@@ -1459,13 +1451,11 @@ width: 75%;
 .summary-section {
   width: 100%;
   background: #fff;
-  contain: content;
 }
 
 .summary-head {
   width: 90rem;
-  padding-top: 10rem;
-  margin: auto;
+  padding-top: 12rem;
 }
 
 .bloon-h2 {
@@ -1480,20 +1470,19 @@ width: 75%;
 
 .project-details {
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .details-box {
   width: 90rem;
   display: flex;
   align-items: center;
-  align-content: center;
   margin: auto;
 }
 
 .details-list {
   color: #2E2E2E;
-  height: 42rem;
+  height: 40rem;
   width: 90rem;
 }
 
@@ -1575,7 +1564,6 @@ figcaption {
 .solution-section {
   width: 100%;
   background: #fff;
-  contain: content;
 }
 
 .solution-head {
@@ -1584,25 +1572,14 @@ figcaption {
   padding-top: 12rem;
 }
 
-.solution-image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
 .solution-img {
-  max-width: 70%;
-  object-fit: contain;
+  width: 70%;
   padding-top: 5rem;
 }
 
 /* User Research */
 
-.UR-section {
-  width: 100%;
-  background: #fff;
-  contain: content;
-}
 
 .UR-head {
   width: 90rem;
@@ -1612,11 +1589,6 @@ figcaption {
 
 /* User Personas */
 
- .User-Personas {
-  width: 100%;
-  background: #fff;
-  padding-top: 10rem;
-}
 
 .UP-head {
   width: 90rem;
@@ -1624,15 +1596,8 @@ figcaption {
 }
 
  .POVs {
-   max-width: 50%;
-   object-fit: contain;
+   width: 50%;
    padding-top: 8rem;
-}
-
-.povs-images {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .see-more-link2 {
@@ -1643,13 +1608,7 @@ figcaption {
   padding: 10rem 0 5rem 0;
 }
 
-
 /* Competitive Analysis */
-.CA-section {
-  width: 100%;
-  background: #fff;
-  contain: content;
-}
 
 .CA-head {
   width: 90rem;
@@ -1666,12 +1625,6 @@ figcaption {
 
 /* User Stories */
 
- .User-Stories {
-  width: 100%;
-  background: #fff;
-  padding-top: 10rem;
-}
-
 .US-head {
   width: 90rem;
   margin: 0 auto;
@@ -1679,22 +1632,11 @@ figcaption {
 
 .US-image {
   max-width: 50%;
-  object-fit: contain;
   padding: 4rem 0 10rem 0;
-}
-
-.US-images {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 /* User Flows */
 
- .User-Flows {
-  width: 100%;
-  background: #fff;
-}
 
 .UF-head {
   width: 90rem;
@@ -1702,8 +1644,7 @@ figcaption {
 }
 
  .UF-image {
-   max-width: 50%;
-   object-fit: contain;
+   width: 50%;
    padding: 6rem 0 0 0;
 }
 
@@ -1789,14 +1730,12 @@ figcaption {
 }
 
 .sketching-image1 {
-  max-width: 60%;
-  object-fit: contain;
+  width: 60%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .sketching-image2 {
-  max-width: 60%;
-  object-fit: contain;
+  width: 60%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -1825,7 +1764,6 @@ figcaption {
 }
 
 .Wireframe-images {
- width: 100%;
  display: flex;
  align-items: center;
  flex-direction: column;
@@ -1833,15 +1771,15 @@ figcaption {
 }
 
 .Wireframe-image1 {
-  max-width: 60%;
+  width: 60%;
 }
 
 .Wireframe-image2 {
-  max-width: 60%;
+  width: 60%;
 }
 
 .Wireframe-image3 {
-  max-width: 60%;
+  width: 60%;
 }
 
 .pro-con-details {
@@ -1850,9 +1788,9 @@ figcaption {
 }
 
 .pro-con-box {
-  width: 100rem;
+  width: 60%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   margin: auto;
 }
 
@@ -1864,7 +1802,7 @@ figcaption {
   width: 100rem;
   list-style-position: inside;
   border-left: .8rem solid #41BC72;
-  margin: 0 8rem 15rem 5rem;
+  margin: 0 8rem 15rem 8rem;
   padding-left: 1.3rem;
 }
 
@@ -1934,7 +1872,7 @@ figcaption {
 .Branding-head {
   width: 90rem;
   margin: 0 auto;
-  padding-top: 15rem;
+  padding-top: 12rem;
 }
 
 .Branding-images {
@@ -1943,27 +1881,20 @@ figcaption {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 10rem 0;
+  padding: 0 0 8rem 0;
 }
 
 .Brand-image1 {
-  max-width: 35%;
-  object-fit: contain;
-  padding: 5rem 0 2rem 0;
+  width: 35%;
+  padding: 10rem 0 0rem 0;
 }
 
 .Brand-image2 {
-  max-width: 50%;
-  object-fit: contain;
-  padding: 5rem 0 2rem 0;
+  width: 50%;
+  padding: 5rem 0 0rem 0;
 }
 
 /* Final Brand Deliverables */
-
-.Brand-Deliverables {
-  width: 100%;
-  background: #F0F0F0;
-}
 
 .BD-head {
  width: 90rem;
@@ -2004,11 +1935,6 @@ figcaption {
 
 /* Final Designs */
 
-.Final-Designs {
-  width: 100%;
-  background: #fff;
-}
-
 .FD-head {
  width: 90rem;
  margin: 0 auto;
@@ -2016,7 +1942,6 @@ figcaption {
 }
 
 .FD-images {
- width: 100%;
  display: flex;
  align-items: center;
  flex-direction: column;
@@ -2034,29 +1959,16 @@ figcaption {
 
 .Conclusion-image {
   width: 100%;
-  height: 130rem;
-}
-
-.bloon-3-screen {
-  max-width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 /* Conclusion */
-
-.conclusion-section {
-  width: 100%;
-  background: #fff;
-  contain: content;
-}
 
 .conclusion-head {
   width: 90rem;
   margin: auto;
   padding: 10rem 0 15rem 0;
 }
-
 }
 
 
