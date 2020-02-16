@@ -586,6 +586,7 @@ figcaption {
   width: 90%;
   height: auto;
   padding-top: 5rem;
+  object-fit: contain;
 }
 
 /* User Research */
