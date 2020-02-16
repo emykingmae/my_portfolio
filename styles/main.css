@@ -591,7 +591,6 @@ figcaption {
 }
 
 
-
 /* User Research */
 
 .UR-section {
@@ -626,6 +625,8 @@ figcaption {
 .povs-images {
   width: 100%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -680,6 +681,8 @@ figcaption {
 .US-images {
   width: 100%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -723,7 +726,7 @@ figcaption {
 .see-more-link {
   width: 90%;
   margin: auto;
-  padding: 10rem 0 5rem 0;
+  padding: 8rem 0 5rem 0;
   font-family: 'PT Sans', 'Open Sans';
   font-style: normal;
   font-weight: normal;
@@ -923,12 +926,12 @@ figcaption {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 10rem 0;
+  padding: 0 0 8rem 0;
 }
 
 .Brand-image1 {
   max-width: 90%;
-  padding: 5rem 0 0 0;
+  padding: 4rem 0 0 0;
 }
 
 .Brand-image2 {
