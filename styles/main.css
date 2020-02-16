@@ -578,16 +578,19 @@ figcaption {
 }
 
 .solution-image {
+  width: 100%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
 .solution-img {
   width: 90%;
-  height: auto;
   padding-top: 5rem;
-  object-fit: contain;
 }
+
+
 
 /* User Research */
 
