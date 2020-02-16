@@ -615,8 +615,7 @@ figcaption {
 }
 
  .POVs {
-   max-width: 90%;
-   object-fit: contain;
+   width: 90%;
    padding-top: 6rem;
 }
 
