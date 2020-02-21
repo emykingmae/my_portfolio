@@ -1429,7 +1429,8 @@ z-index: -2;
 }
 
 #tri {
-width: 95%;
+width: 80%;
+position: absolute;
 }
 
 .About-me-section {
@@ -2173,7 +2174,7 @@ figcaption {
 }
 
 
-@media only screen and (min-width: 482px) {
+@media only screen and (max-width: 1020px) {
 
 .hero {
   height: 75rem;
