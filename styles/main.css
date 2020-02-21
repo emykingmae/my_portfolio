@@ -1150,7 +1150,7 @@ margin-right: 4rem;
 
 /* Media Queries */
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1024px) {
 
 .wrapper {
   width: 100%;
@@ -1257,14 +1257,15 @@ a:hover {
   justify-content: center;
 }
 
-.bloon-illo {
-  width: 50.2rem;
-  height: 50.4rem;
-  object-fit: contain;
-}
-
 .bloon {
   margin-left: 17.5rem;
+  width: 50rem;
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+}
+
+.busy-bus {
+  margin-left: 11rem;
   width: 50rem;
   border-left: .8rem solid #FFC3C3;
   padding-left: 3rem;
@@ -1280,24 +1281,23 @@ a:hover {
   justify-content: center;
 }
 
-.busy-bus-image {
-  width: 60.2rem;
-  height: 50.4rem;
+.bloon-illo {
+  width: 50.2rem;
+  height: 42.4rem;
   object-fit: contain;
+  margin-left: 10rem;
 }
 
-.busy-bus {
-  margin-left: 11rem;
-  width: 50rem;
-  border-left: .8rem solid #FFC3C3;
-  padding-left: 3rem;
+.busy-bus-image {
+  width: 50.2rem;
+  height: 50.4rem;
+  object-fit: contain;
 }
 
 .skills-section {
   width: 100%;
   height: 85rem;
   background: #2E2E2E;
-
 }
 
 .skills-box {
@@ -1312,6 +1312,7 @@ a:hover {
 }
 
 .skills-list {
+  width: 25%;
   height: 72rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1378,7 +1379,7 @@ footer {
   padding-left: 7rem;
 }
 
-/* Media Queries ABOUT ME Desktop */
+/* Media Queries ABOUT ME Desktop / Tablet */
 
 .about-hero-inner {
   width: 75%;
@@ -1413,7 +1414,7 @@ z-index: -2;
 .prof-pic {
   width: 299px;
   height: 299px;
-  margin-left: 15rem;
+  margin-left: 25rem;
   position: absolute;
   z-index: -1;
   border-radius: 50%;
@@ -1428,7 +1429,7 @@ z-index: -2;
 }
 
 #tri {
-width: 75%;
+width: 95%;
 }
 
 .About-me-section {
@@ -1445,7 +1446,7 @@ width: 75%;
 
 .Design-beliefs {
   width: 40%;
-  margin-left: 30rem;
+  margin-left: 20rem;
   padding-left: 3rem;
   border-left: .7rem solid #FFC3C3;
 }
@@ -1828,11 +1829,12 @@ figcaption {
 
 .pro-con-details {
   width: 100%;
-  padding: 1rem 0 0 0;
+  padding-top: 2rem;
+
 }
 
 .pro-con-box {
-  width: 60%;
+  max-width: 60%;
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -1846,8 +1848,7 @@ figcaption {
   width: 100rem;
   list-style-position: inside;
   border-left: .8rem solid #41BC72;
-  margin: 0 8rem 15rem 8rem;
-  padding-left: 1.3rem;
+  margin-left: 5rem;
 }
 
 .pro-con-list2 {
@@ -1858,12 +1859,10 @@ figcaption {
   width: 100rem;
   list-style-position: inside;
   border-left: .8rem solid #FFC3C3;
-  margin: 0 0 15rem 0;
-  padding-left: 1.3rem;
+  margin-left: 5rem;
 }
 
 .pro-con-list li {
-
   color: #2E2E2E;
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
@@ -2034,7 +2033,6 @@ figcaption {
 
 /* iPhone media queries*/
 
-
 @media only screen and (max-width: 480px) {
 
   .nav_links li {
@@ -2143,5 +2141,44 @@ figcaption {
     height: auto;
     object-fit: contain;
   }
+}
+
+/* Large screens */
+
+@media only screen and (min-width: 1900px) {
+
+.hero-inner {
+  max-width: 70%;
+}
+
+.about-hero-inner {
+  max-width: 65%;
+  margin: auto;
+  padding-top: 11rem;
+}
+
+.Design-beliefs {
+  margin-left: 20%;
+}
+
+.About-me-head {
+  margin: auto;
+  max-width: 65%;
+}
+
+.case-study-wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+}
+
+
+@media only screen and (min-width: 482px) {
+
+.hero {
+  height: 75rem;
+  width: 100%;
+  margin-top: 12rem;
+}
 
 }
