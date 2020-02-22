@@ -1073,10 +1073,9 @@ figcaption {
 /* ABOUT ME page */
 
 .about-hero-inner {
-  width: 80%;
+  width: 85%;
   margin: auto;
   padding-top: 5rem;
-  /* padding-right: 30rem; */
 }
 
 .about-hero {
@@ -1122,7 +1121,7 @@ margin-right: 4rem;
 }
 
 .About-me-head {
-  width: 80%;
+  width: 85%;
   margin: auto;
   padding-top: 10rem;
   /* padding-right: 30rem; */
@@ -2149,7 +2148,7 @@ figcaption {
 @media only screen and (min-width: 1900px) {
 
 .hero-inner {
-  max-width: 70%;
+  max-width: 75%;
 }
 
 .about-hero-inner {
@@ -2167,8 +2166,18 @@ figcaption {
   max-width: 65%;
 }
 
-.case-study-wrapper {
-  max-width: 1600px;
+.sketching-images {
+  max-width: 70%;
+  margin: auto;
+}
+
+.Wireframe-images {
+  max-width: 70%;
+  margin: auto;
+}
+
+.pro-con-details {
+  max-width: 70%;
   margin: auto;
 }
 }
