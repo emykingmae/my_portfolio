@@ -22,7 +22,6 @@ html {
   align-items: center;
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
   height: 8rem;
   width: 100%;
   background-color: #fff;
@@ -53,10 +52,6 @@ border-bottom: .5rem solid #FFC3C3;
   font-size: 1.8rem;
 }
 
-.nav_links {
-  margin-left: 2.5rem;
-}
-
 .nav_links li {
   display: inline;
   text-decoration: none;
@@ -69,8 +64,8 @@ border-bottom: .5rem solid #FFC3C3;
 }
 
 .jt_logo {
-  margin-left: 5rem;
-  width: 7rem;
+  margin-left: 1rem;
+  width: 6rem;
   padding-top: 2rem;
 }
 
@@ -609,17 +604,21 @@ figcaption {
   margin: 0 auto;
 }
 
-.POVs {
- width: 90%;
- padding-top: 6rem;
-}
-
 .povs-images {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+.POVs {
+  display: none;
+}
+
+.POVs-mobile {
+  width: 90%;
+  padding-top: 6rem;
 }
 
 .see-more-link2 {
@@ -648,6 +647,10 @@ figcaption {
 }
 
 .ca-image {
+  display: none;
+}
+
+.ca-image-mobile{
   width: 100%;
   padding: 2rem 0 2rem 0;
 }
@@ -1069,7 +1072,6 @@ figcaption {
 }
 
 
-
 /* ABOUT ME page */
 
 .about-hero-inner {
@@ -1423,12 +1425,11 @@ z-index: -2;
 .triangle {
   max-width: 20rem;
   position: absolute;
-
   z-index: -2;
 }
 
 #tri {
-width: 80%;
+width: 85%;
 position: absolute;
 }
 
@@ -1635,9 +1636,23 @@ figcaption {
   margin: 0 auto;
 }
 
- .POVs {
-   width: 50%;
-   padding-top: 8rem;
+.povs-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.POVs {
+  display:inline !important;
+  width: 60%;
+  padding-top: 6rem;
+}
+
+
+.POVs-mobile {
+  display: none;
 }
 
 .see-more-link2 {
@@ -2018,6 +2033,10 @@ figcaption {
 
 @media only screen and (min-width: 480px) {
 
+.nav_links {
+  margin-left: 5rem;
+}
+
 .TK-head {
   width: 80%;
   margin: auto;
@@ -2029,6 +2048,17 @@ figcaption {
   width: 40%;
   height: auto;
 }
+
+.ca-image {
+  display:inline !important;
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+}
+
+.ca-image-mobile{
+  display: none;
+}
+
 }
 
 /* iPhone media queries*/
@@ -2049,10 +2079,6 @@ figcaption {
     font-weight: 400;
     font-size: 1.6rem;
     text-decoration: none;
-  }
-
-  .jt_logo {
-    display: none;
   }
 
   .hero {
@@ -2180,6 +2206,29 @@ figcaption {
   max-width: 70%;
   margin: auto;
 }
+
+#tri {
+width: 78%;
+position: absolute;
+}
+
+.povs-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.POVs {
+  display:inline !important;
+  width: 35%;
+  padding-top: 6rem;
+}
+
+.POVs-mobile {
+  display: none;
+}
 }
 
 
@@ -2190,5 +2239,88 @@ figcaption {
   width: 100%;
   margin-top: 12rem;
 }
+}
 
+@media only screen and (min-width: 2000px) {
+
+.jt_logo {
+  margin-left: 30rem;
+}
+
+.nav_links {
+  margin-right: 10rem;
+}
+
+.hero-inner {
+  max-width: 55%;
+}
+
+.about-hero-inner {
+  width: 55%;
+}
+
+.about-hero-inner {
+  width: 60%;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.about-hero {
+  width: 100%;
+  margin: 15rem 0 4rem 0;
+}
+
+.About-me-head {
+  width: 60%;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.Design-beliefs {
+  width: 35%;
+  padding-left: 2rem;
+  margin-top: 5rem;
+  border-left: .7rem solid #FFC3C3;
+}
+
+.bg-rec {
+width: 100%;
+position: absolute;
+margin-top: 5rem;
+z-index: -2;
+}
+
+#tri {
+width: 75%;
+position: absolute;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+
+  .povs-images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .POVs {
+    display:inline !important;
+    max-width: 45%;
+    padding-top: 6rem;
+  }
+
+  .POVs-mobile {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+
+.jt_logo {
+  display: none;
+}
 }
