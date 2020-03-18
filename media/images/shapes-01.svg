@@ -1,1 +1,13 @@
-<svg viewBox="0 0 1500 800" xmlns="http://www.w3.org/2000/svg"><path d="m0 587h1500v69h-1500z" fill="#ffe144"/><circle cx="1289.5" cy="496.5" fill="#3b95ff" r="90.5"/><path d="m992.12 529.43 76.85 133.1 76.85 133.11h-153.7-153.7l76.85-133.11z" fill="#41bc72"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1500 800" style="enable-background:new 0 0 1500 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFE144;}
+	.st1{fill:#3B95FF;}
+	.st2{fill:#41BC72;}
+</style>
+<path class="st0" d="M0,587h1500v69H0V587z"/>
+<circle class="st1" cx="1289.5" cy="496.5" r="90.5"/>
+<path class="st2" d="M992.1,529.4l76.8,133.1l76.8,133.1H992.1H838.4l76.8-133.1L992.1,529.4z"/>
+</svg>
