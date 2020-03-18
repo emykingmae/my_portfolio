@@ -33,7 +33,6 @@ html {
   margin-top: 5rem;
 }
 
-
 a {
   color: #2E2E2E;
   font-family: 'Open Sans', 'sans serif';
@@ -419,6 +418,7 @@ footer {
   font-size: 2rem;
   color: #2E2E2E;
   text-align: center;
+  padding-bottom: 6rem;
 }
 
 .bloon-hero {
@@ -2186,6 +2186,10 @@ figcaption {
   max-width: 75%;
 }
 
+.h3-bloon {
+  width: 20%;
+}
+
 .about-hero-inner {
   max-width: 65%;
   margin: auto;
@@ -2251,6 +2255,10 @@ position: absolute;
 }
 
 @media only screen and (min-width: 2000px) {
+
+.h3-bloon {
+  width: 15%;
+}
 
 .jt_logo {
   margin-left: 30rem;
