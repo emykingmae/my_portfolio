@@ -17,6 +17,7 @@ html {
 }
 
 #navbar {
+  z-index: 99;
   position: fixed;
   top: 0px;
   align-items: center;
@@ -103,9 +104,9 @@ a:hover {
 }
 
 .hero {
-  height: 85rem;
+  height: 75rem;
   width: 100%;
-  background-image: url("../media/images/shapes-01.svg");
+  background-image: url("../media/images/shapes-bg.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
