@@ -78,6 +78,20 @@ a:hover {
   color: #431FA8;
 }
 
+.see-more {
+  margin-top: 18%;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: #B0B0B0;
+}
+
+.fas {
+  margin-left: 2rem;
+}
+
 .hero-inner {
   width: 85%;
   margin: 0 auto;
@@ -1167,6 +1181,7 @@ margin-right: 4rem;
   margin: 0 auto;
 }
 
+
 .top {
   background: #3B95FF;
   height: 1.6rem;
@@ -2046,6 +2061,7 @@ figcaption {
   margin-left: 5rem;
 }
 
+
 .TK-head {
   width: 80%;
   margin: auto;
@@ -2079,6 +2095,10 @@ figcaption {
     text-decoration: none;
     padding-left: 4rem;
     padding-right: 0rem;
+  }
+
+  .see-more {
+    margin-top: 10%;
   }
 
   a {
@@ -2340,4 +2360,21 @@ position: absolute;
 .jt_logo {
   display: none;
 }
+
+
+.hero {
+  height: 85rem;
+}
+
+.see-more {
+  margin-top: 18%;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  color: #B0B0B0;
+}
+
+
 }
