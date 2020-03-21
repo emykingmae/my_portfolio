@@ -3,7 +3,7 @@ var ctx = document.getElementById('myChart');
 var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: ["Use multiple accounts for work and personal use", "Use the same cloud for work and personal use", "Use one cloud account"],
+        labels: ["Use multiple accounts for work/personal use", "Use the same cloud for work and personal use", "Use one cloud account"],
         datasets: [{
             label: '# of Votes',
             data: [30, 15, 5],
