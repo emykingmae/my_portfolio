@@ -16,6 +16,15 @@ html {
   width: 100%;
 }
 
+.top-bloon {
+  background: #4627FF;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+
 #navbar {
   z-index: 99;
   position: fixed;
@@ -42,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+#myChart2 {
+  margin-top: 7rem;
+}
+
 a.active {
 font-family: 'Open Sans', 'sans serif';
 font-style: normal;
@@ -61,6 +74,10 @@ border-bottom: .5rem solid #FFC3C3;
   display: inline;
   text-decoration: none;
   padding-right: 5rem;
+}
+
+.nav_links {
+  padding-top: 1rem;
 }
 
 #nav_links a:hover {
