@@ -251,6 +251,26 @@ p {
   transition: all .2s;
 }
 
+.cta-5 {
+  margin-top: 4.3rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  border: .5rem solid #2E2E2E;
+  box-sizing: border-box;
+  padding-left: 2.9rem;
+  transition: all .2s;
+}
+
 .cta-4 {
   margin: 4.3rem 0 6.3rem 0;
   background-color: #fff;
@@ -287,6 +307,7 @@ p {
   top: 48.9rem;
   box-sizing: border-box;
   padding-left: 5.5rem;
+  border: .5rem solid #2E2E2E;
   transition: all .2s;
 }
 
@@ -296,16 +317,58 @@ p {
   border: .5rem solid #2E2E2E;
 }
 
+.cta-2:active{
+  color: #fff;
+  background-color: #3B95FF;
+  border: .5rem solid #3B95FF;
+  transform: translateY(4px);
+}
+
 .cta-1:hover {
   color: #FFF;
   background-color: #431FA8;
   border: .5rem solid #431FA8;
 }
 
+.cta-5:hover {
+  color: #FFF;
+  background-color: #431FA8;
+  border: .5rem solid #431FA8;
+}
+
+.cta-5:active{
+  color: #fff;
+  background-color: #150739;
+  border: .5rem solid #150739;
+  transform: translateY(4px);
+}
+
+
+.cta-1:active{
+  color: #fff;
+  background-color: #150739;
+  border: .5rem solid #150739;
+  transform: translateY(4px);
+}
+
 .cta-4:hover {
   color: #FFF;
   background-color: #431FA8;
   border: .5rem solid #431FA8;
+}
+
+.cta-4:active{
+  color: #fff;
+  background-color: #150739;
+  border: .5rem solid #150739;
+  transform: translateY(4px);
+}
+
+.cta-3:active{
+  color: #fff;
+  background-color: #150739;
+  border: .5rem solid #150739;
+  transform: translateY(4px);
 }
 
 .case-study1 {
