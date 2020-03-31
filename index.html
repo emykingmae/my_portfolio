@@ -24,11 +24,11 @@
 
 <!-- navigation -->
 
-
 <div id="navbar">
   <div class="jt_logo">
     <a href="index.html">
-      <img src="media/images/logo.svg" alt="Justin Thrift Logo">
+      <object data="media/images/logo.svg?global=paused" type="image/svg+xml"
+        onmouseover="playAnimation(this)"></object>
     </a>
   </div>
   <div class="top"></div>
@@ -44,6 +44,21 @@
       </li>
   </ul>
 </div>
+
+
+<script>
+function playAnimation(obj)
+{
+if (obj.contentDocument && obj.contentDocument.ks) {
+  var ks = obj.contentDocument.ks;
+  if (ks.timelines()[0].state() != "running") {
+      ks.timelines()[0].time(0);
+  }
+  ks.globalPlay();
+}
+}
+</script>
+
 
 <!-- Hero Section -->
 
@@ -72,6 +87,10 @@
       <h2>Bloon</h2>
       <p>A light-weight cloud storage<br>solution that prioritizes users.</p>
       <a href="project1.html" class="cta-1">read case study</a>
+
+
+
+
 
     </div>
   </section>
