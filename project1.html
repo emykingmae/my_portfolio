@@ -28,9 +28,8 @@
 <div id="navbar">
   <div class="jt_logo">
     <a href="index.html">
-      <object data="media/images/logo.svg?global=paused" type="image/svg+xml"
-        onmouseover="playAnimation(this)"></object>
-    </a>
+     <img src="media/images/logo.svg" alt="Justin Thrift Logo">
+   </a>
   </div>
     <div class="top-bloon"></div>
     <ul class="nav_links">
@@ -46,18 +45,6 @@
     </ul>
   </div>
 
-  <script>
-  function playAnimation(obj)
-  {
-  if (obj.contentDocument && obj.contentDocument.ks) {
-    var ks = obj.contentDocument.ks;
-    if (ks.timelines()[0].state() != "running") {
-        ks.timelines()[0].time(0);
-    }
-    ks.globalPlay();
-  }
-  }
-  </script>
 
 <!-- Hero Section -->
 <div class="case-study-wrapper">

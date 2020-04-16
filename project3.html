@@ -28,11 +28,10 @@
 <div id="navbar">
   <div class="jt_logo">
     <a href="index.html">
-      <object data="media/images/logo.svg?global=paused" type="image/svg+xml"
-        onmouseover="playAnimation(this)"></object>
-    </a>
+     <img src="media/images/logo.svg" alt="Justin Thrift Logo">
+   </a>
   </div>
-    <div class="top-bloon"></div>
+    <div class="top-mise"></div>
     <ul class="nav_links">
       <li>
         <a href="index.html#work">Work</a>
@@ -46,47 +45,34 @@
     </ul>
   </div>
 
-  <script>
-  function playAnimation(obj)
-  {
-  if (obj.contentDocument && obj.contentDocument.ks) {
-    var ks = obj.contentDocument.ks;
-    if (ks.timelines()[0].state() != "running") {
-        ks.timelines()[0].time(0);
-    }
-    ks.globalPlay();
-  }
-  }
-  </script>
-
 <!-- Hero Section -->
 <div class="case-study-wrapper">
 
   <section class="bloon-hero">
     <div class="bloon-hero-inner">
-      <h1>Bloon</h1>
-      <h3 class="h3-bloon">A light-weight cloud storage solution that prioritizes users</h3>
-      <a href="https://invis.io/WMUGGQMK2A5" target="_blank" class="cta-5">view prototype</a>
+      <h1>Mise en Place</h1>
+      <h3 class="h3-bloon">A mobile solution for effortless cooking in the kitchen.</h3>
+      <a href="https://www.figma.com/proto/iHcbrzzLjQLhgV1JvLSIZ8/Final-Mise-en-Place-Prototype?node-id=1%3A1163&scaling=min-zoom" target="_blank" class="cta-5">view prototype</a>
     </div>
   </section>
-    <section class="bloon-hero-image">
-    <img class="bloon-5-screen" src="media/images/bloon-5-screen.jpg" alt="5 Screen Mockup of Bloon">
+    <section class="mise-hero-image">
+    <img class="bloon-5-screen" src="media/images/Mise-header-image.jpg" alt="5 Screen Mockup of Bloon">
   </section>
 
 <!-- Summary Section -->
 
-  <section class="summary-section">
-    <div class="summary-head">
-      <h2 class="bloon-h2">Summary</h2>
-        <p>Even with a handful of established big players in the cloud storage market, mainstream cloud tools are cluttered, confusing and user accounts are often as disorganized as their iPhone camera rolls.
-        <br><br>This project aimed to design a cleaner, easier platform for those who rely on the cloud at work and at home. </p>
-    </div>
-
+<section class="summary-section">
+  <div class="summary-head">
+    <h2 class="bloon-h2">Summary</h2>
+      <p>‘Mise en Place’ is an mobile app born of the idea that following a recipe in the kitchen has become harder than it needs to be in the era of inconsistent cooking blogs. The purpose of this project was to explore ways to improve the user experience of following a recipe online while working in the kitchen.</p>
+  </div>
   <section class="project-details">
     <div class="details-box">
       <ul class="details-list">
-        <li><h2 class="details-h2">My Role</h2></li>
+          <li><h2 class="details-h2">My Role</h2></li>
           <li>UX Designer and Researcher</li>
+          <h2 class="details-h2">Team</h2></li>
+          <a href="https://racheleayotte.wixsite.com/website" target="_blank" <li class="rachel">Rachel Ayotte, UX Writing</li></a>
       </ul>
       <ul class="details-list">
         <li><h2 class="details-h2">Deliverables</h2></li>
@@ -103,28 +89,31 @@
       <ul class="details-list">
         <li><h2 class="details-h2">Tools</h2></li>
           <li>Google Forms</li>
-          <li>Google Docs</li>
-          <li>Draw.io</li>
           <li>Figma</li>
-          <li>Illustrator</li>
+          <li>Photoshop</li>
           <li>InVision</li>
-          <li>Maze</li>
           <li>UsabilityHub</li>
       </ul>
     </div>
   </section>
-
-  </section>
+</section>
 
 <!-- The Problem -->
   <section class="problem-section">
     <div class="problem-inner">
       <h2 class="bloon-dark-h2">The Problem</h2>
-        <p class="p-bloon-dark">By conducting an extensive user survey, I learned that cloud users’ top two frustrations are the amount of accounts they have, and how hard it is to locate the content they’re looking for.<br><br>What the research revealed is that many users are employing the same cloud account at home to organize personal content as they are at work. (This is amplified if a user’s employer is already footing the bill for a premium amount of storage.)<br><br>In addition, most cloud services are packed with well-meaning features and buttons that actually clutter the experience of organizing content.<br><br>This presents a problem: personal content and work content are mixing into one disorganized mess somewhere high in the clouds.</p>
+        <p class="p-bloon-dark">An extensive user survey concluded that a majority of people are relying on recipes that they find online, specifically from cooking blogs. There are two main problems that currently arise from this:</p>
+        <ol class="mise-list">
+          <br>
+          <li>1) Cooking blogs often bury the most important recipe information (Directions & Ingredients) behind Ads, recipe backstory, and author self-promotion. I learned that users are not interested in any of these things.</li>
+          <br>
+          <li>2) Following these recipes in the kitchen is often cumbersome. Most users opt to email the link to themselves for later viewing, and then are forced to scroll up and down to view different parts of the recipe as they follow along with dirty fingers. Finding recipes from all over the web creates a secondary problem: it’s hard to archive and save these recipes in a central location (aside from creating browser bookmarks).</li>
+        </ol>
     </div>
-    <figure class="tweet">
-      <img class="ct-tweet" src="media/images/CG-tweet.jpg" alt="A Chrissy Teigen Tweet">
-      <figcaption>Even Chrissy Teigen has problems with DropBox!</figcaption>
+
+    <figure class="mise-fig">
+      <img class="mise-problem" src="media/images/mise-problem.jpg" alt="A Chrissy Teigen Tweet">
+      <figcaption class="mise-fig-cap">An expensive computer surrounded by hazardous cooking supplies—look familiar?</figcaption>
     </figure>
   </section>
 
@@ -132,10 +121,16 @@
   <section class="solution-section">
     <div class="solution-head">
       <h2 class="bloon-h2">The Solution</h2>
-        <p>What I proposed was a stripped-down cloud storage platform with some basic organizational tools and only the key features that users require: cloud storage, file sharing/collaboration, and most importantly, a healthy division between home and workplace content.<br><br>Upon logging in, a simple screen asks users “Where are you?” with the two account options to choose from: Home and Work.</p>
+        <p>
+          What my research revealed was that these two user user problems are deeply connected to the nature of online cooking blogs/communities. Inherent to these platforms is that they stand alone as webpages, with no way to link them for users; additionally, the business strategy for these cooking blogs requires the inclusion of paid advertisements and the fostering of author personality and story (two things that users don’t need when following a recipe).
+          <br><br><span class="bold-p">
+          Mise en Place solves these issues by offering a publishing platform for recipe bloggers to publish on in an optimized way that allows users to find new recipes, curate a recipe box, and easy follow recipes in the kitchen.</span>
+          <br><br>
+          Mise en Place prioritizes the two most important features of a recipe for users (Directions and Ingredients). The recipe experience is designed to be hands-off for users while in the kitchen, designed with minimal scrolling and screen touching in mind.
+        </p>
     </div>
     <figure class="solution-image">
-      <img class="solution-img" src="media/images/solution-img.jpg" alt="Final Desktop Shot">
+      <img class="solution-img" src="media/images/screen1.jpg" alt="Final Desktop Shot">
     </figure>
   </section>
 
@@ -143,9 +138,13 @@
   <section class="UR-section">
     <div class="UR-head">
       <h2 class="bloon-h2">User Research</h2>
-        <p>Digging for an under-served market of users in the cloud space started with canvasing a large set of users. My survey reached people in 17 cities across the U.S., 85% of whom were between the ages of 22 and 40.<br><br>95% of these users said they currently use a cloud storage service at least once a day, and almost all of them said they would switch services if a better option became available.<br><br>Within this group was this demographic of busy professionals who crave seamless   tools that give them more efficiency. These users see the cloud as an alternative to word processing softwares, and as an archive for their photos through the years (and through phone upgrades). Their problems rooted deeply in how they organize their digital lives (and manage content overload).<br><br>What began to emerge from this initial research was a set of users with values of minimalism over complexity, a clean space over a cluttered one, <span class="bold-p">and a need to foster  separation of work and home.</span>
+        <p>I conducted a wide-ranging survey from people across the U.S. between the ages of 18 and 50 years-old. 74% of the participants surveyed said they get their recipes mostly online/from cooking blogs. Within that group of people, 96% of participants said they then follow along to the recipes they find on their phone or other device whilst in the kitchen.
+          <br><br>
+          I also learned from my survey that what frustrates users the most about using their devices in the kitchen is the lock screen on their phones and keeping their devices clean, not being able to see all the ingredients/directions at the same time, and being unable to keep track of recipes they've tried in the past.<br><br>
+        <span class="bold-p">Most important features of a recipe, according to users surveyed:</p>
         </p>
-        <canvas id="myChart"></canvas>
+        <canvas id="myChart3"></canvas>
+        <p>Other takeaways from my user survey are that users aren’t interested in the backstory/history of recipes, and for those users who don’t currently cook a lot, 57% say that improved technology in the kitchen might persuade them to cook more.</p>
     </div>
   </section>
 
@@ -153,18 +152,20 @@
   <section class="User-Personas">
     <div class="UP-head">
       <h2 class="bloon-h2">User Personas</h2>
-      <p> As part of the project’s discovery phase, I created some personas to narrow in on my niche set of core users and fully understand their unique problem set. By synthesizing data collected in my user survey I was able to bring some potential use cases to life and empathize fully with who I was designing for and their diversity of needs.
+      <p>I wrote some personas to help breathe life into some of the main voices that kept coming out of the data collected in my user survey. Through refining my data into real personalities I was able to stay focused on my core users during the upcoming visual design process.
+        <br><br>
+        Though the user base for a recipe app is large, there are specific themes that repeat throughout the survey feedback, including a desire to cook more in order to live a healthy and more budget-friendly life, feeling overwhelmed by cooking and wanting to learn how to cook better/more efficiently, and feeling like an improved way of viewing and collecting recipes would encourage/aid with more cooking throughout the week.
       </p>
     </div>
     <div class="povs-images">
-      <img class="POVs" src="media/images/POVs.jpg" alt="Snapshots from Personas">
-      <img class="POVs-mobile" src="media/images/POV-mobile.jpg" alt="Snapshots from Personas">
+      <img class="POVs" src="media/images/Mise-POVs.jpg" alt="Snapshots from Personas">
+      <img class="mise-POVs-mobile" src="media/images/Mise-mobile-POVs.jpg" alt="Snapshots from Personas">
     </div>
 
 <!-- Link to external UX documentation -->
     <div class="see-more-link2">
-      <a href="https://drive.google.com/open?id=1L2V8lZevqEFHrwwSVrUvh31bPn51YcK5" target="_blank" >View the full Personas I created via GoogleDrive</a>
-      <a href="https://drive.google.com/open?id=1L2V8lZevqEFHrwwSVrUvh31bPn51YcK5" target="_blank" ><i class="fas fa-arrow-right"></i></a>
+      <a href="https://drive.google.com/drive/folders/1_nUHiPWY8FeBWDgXKZ01s7-XzAVzjyuY?usp=sharing" target="_blank" >View the full Personas I created via GoogleDrive</a>
+      <a href="https://drive.google.com/drive/folders/1_nUHiPWY8FeBWDgXKZ01s7-XzAVzjyuY?usp=sharing" target="_blank" ><i class="fas fa-arrow-right"></i></a>
     </div>
   </section>
 
@@ -172,121 +173,100 @@
   <section class="CA-section">
     <div class="CA-head">
       <h2 class="bloon-h2">Competitive Analysis</h2>
-        <div>
-          <img class="ca-image" src="media/images/CA-image.jpg" alt="Logos from Competitive Analysis">
-          <img class="ca-image-mobile" src="media/images/ca-logos.jpg" alt="Logos from Competitive Analysis">
-        </div>
-      <p>By doing a competitive analysis of the major players in the field I learned what users have come to expect from these tools in their daily lives and where these big name services are currently falling short for my target user base.
-      <br><br>DropBox and Google Drive enjoy the largest share of the market, with 78% of users surveyed claiming to use both.
-      <br><br>Google Drive’s main draw is its seamless integration with Gmail, Google Docs and other Google products. The widespread adoption of Google products reinforces this tendency for users to throw all of their content into one cloud at the center of their digital lives, creating more opportunity for disorganization and blurring of work/home lines.
-      <br><br>DropBox offers a similar service to Google Drive, and has strong features that integrate with both Google Docs and Microsoft Suite (something users expect to be standard). However, DropBox too is a generalist in the cloud storage space, overloaded with features and products, but ultimately proposing no central way of fundamentally organizing content aside from folders.
-      <br><br>Box, the third largest player in the market, has the cleanest UI of all three, but basically offers an alternative to DropBox.
-      <br><br>Other competitors in the market focus on helping users with digital organizational, such as Evernote, Notion, and WeTransfer. All offer niche tools yet fall short in the cloud storage arena. The features that delight users in this space are quick transfers of large files without having to create an account (WeTransfer), and the ability to write reminders (Notion, Evernote), store links from the web for quick access (Evernote, Notion), and to collaborate across teams (Notion, Evernote, Monday.com).<br><br><span class="bold-p">My competitive analysis confirmed that the market lacks a light-weight cloud storage platform that makes organizing all content easy, seperating work and home, while delivering basic organizational tools to assist the workflow of a modern professional.</span>
+      <span class="bold-p">I performed a Competitive Analysis of the three business models that currently serve users in this recipe space: Food Network Kitchen (mobile app), Pinterest (established online inspiration/ideas platform), Cooking Blogs (the largest source of user recipes).</p>
+        <br>
+        <p>There is a lot of upside for new competitors looking to break into this market due to a lack of established products, and a high demand for better recipe tools.
+        <br><br>
+        As my research showed, there is a diverse amount of users in this market--anyone who cooks at home and/or anyone who wants to learn how to cook more efficiently. While there are a handful apps in the market, none clearly address the key problems I uncovered in my discovery phase.
+        <br><br>
+        My user research revealed that most users are finding their recipes browsing the web and landing on cooking blogs. The majority of users are then following these recipes by viewing them on their devices in the kitchen.
+        <br><br>
+        In addition, many users are finding recipes via Instagram and Pinterest. A photo of a meal leads to a post, which leads to yet another cooking blog.</b>
+        <br><br><span class="bold-p">
+        What my analysis of the market confirmed was that opportunity exists for a digital product that can help users find recipes from across the web in one singular place, where they can also save/archive these recipes, and easily follow the recipes on their device.
+        </p>
       </p>
-      <canvas id="myChart2"></canvas>
     </div>
   </section>
+
 
 <!-- User Stories -->
   <section class="User-Stories">
     <div class="US-head">
       <h2 class="bloon-h2">User Stories</h2>
-        <p>Building upon the data I collected from my user survey I wrote core user stories. The highest priority stories emerged as the key features I would be looking to build.
-        <br><br>This exercise was helpful in identifying the four key features that I needed to build around, and identifying two organizational tools that would add value to the user experience. It also identified other features and actions that I would need to consider when designing.
-      </p>
+        <p>I wrote User Stores to reflect the top things users are looking to see and do when opening a recipe app. This was a helpful exercise in rounding out the research phase of the project and documenting the features that would take front and center in my visual design work to come.
+          <br><br>
+          As previously noted, by now I’ve learned that the most important pieces of a recipe that users need are Directions, Ingredients, and Timing:
+        </p>
     </div>
     <div class="US-images">
-      <img class="US-image" src="media/images/User-Stories.jpg" alt="User Stories Graphic">
+      <img class="US-image" src="media/images/Mise-User-Stories.jpg" alt="User Stories Graphic">
     </div>
   </section>
 
 <!-- User Flows-->
   <section class="User-Flows">
     <div class="UF-head">
-      <h2 class="bloon-h2">User Flows</h2>
-        <p>Creating some core user flows based on the key features of my cloud storage service was the beginning of starting to think about the user experience and how these features would take form. In keeping with the idea that this platform should be easy to use and well organized, these user flows were refined down until they reached their simplest forms. The following are some key user flows that came out of this process.</p>
+      <h2 class="bloon-h2">Creating a M.V.P. Site Map</h2>
+        <p>The visual design process started with sketching out some basic User Flows that would facilitate top user stories within the app (mainly: 1. finding a recipe 2. following a recipe 3. saving a recipe). I‘m not including these here for the sake of brevity, but you can view some of my user flows <a href="https://drive.google.com/drive/folders/1CeI2qaBEKllcuzJNgyJ7snMdb1a3A4cK?usp=sharing" target="_blank" ><i class="google-link">at this GoogleDrive location.</i></a>
+        <br><br>
+        I used this site map to help guide my user flow creation, and later on, keep track of the main sections within the app.
+        </p>
     </div>
     <figure class="UF-images">
-      <img class="UF-image" src="media/images/UF-image.jpg" alt="User Flows Graphic">
-      <figcaption class="figcaptionblack">This moment became a core piece of the final design solution.</figcaption>
+      <img class="UF-image" src="media/images/Mise-User-Map.jpg" alt="User Map">
+      <figcaption class="figcaptionblack">The site map that displays the Minimum Viable Product of Mise en Place.</figcaption>
     </figure>
   </section>
 
-<!-- Link to external UX documentation -->
-  <div class="see-more-link">
-    <a href="https://drive.google.com/open?id=1HaEhyKhcQvp-6yZm1EP6GVbNDkH0nxg5" target="_blank" >Explore the full UX documentation for my User Stories and Flows via GoogleDrive.</a>
-    <a href="https://drive.google.com/open?id=1HaEhyKhcQvp-6yZm1EP6GVbNDkH0nxg5" target="_blank"><i class="fas fa-arrow-right"></i></a>
-  </div>
 
 <!-- Sketches -->
   <section class="Sketching-section">
     <div class="sketching-head">
       <h2 class="bloon-h3">Sketching</h2>
-        <p>The visual design process started with some rough sketching of important moments and key screens in the established user stories/flows.<br><br>I conducted three rounds of mobile and desktop user testing using paper prototypes, and two rounds of lo-fi wireframe testing (using InVision).
+        <p>When I started thinking about visual design for the app, I began by sketching out the three main screens core to the experience: a Home screen, a "Saved Recipes" screen, and a "New Recipes" screen (where users could search and browse for new recipes).<br>
         </p>
     </div>
 
     <figure class="sketching-images">
-      <img class="sketching-image1" src="media/images/sketching-1.jpg" alt="Sketching Examples">
-        <figcaption class="figcaptionblack2">Sketching out the moment users choose their Home or Work accounts, and the first iterations of the mobile account dashboard.</figcaption>
+      <img class="sketching-image1" src="media/images/mise-sketch1.jpg" alt="Sketching Examples">
+        <figcaption class="figcaptionblack2">I sketched many iterations, but these screens were the first I wanted to pursue further. I was initially considering the idea of a “Tinder for Recipes” swipe feature to greet users on the Home Screen (this idea was later dropped in testing; besides a fun interaction, it didn’t do much to solve a user problem).</figcaption>
     </figure>
 
     <figure class="sketching-images">
-      <img class="sketching-image2" src="media/images/sketch-2.jpg" alt="Sketching Examples">
-        <figcaption class="figcaptionblack2">Early sketches of how users will upload or create new content in mobile.</figcaption>
+      <img class="sketching-image2" src="media/images/mise-sketch2.jpg" alt="Sketching Examples">
+        <figcaption class="figcaptionblack2">I began to sketch further the main Recipe screen. At first, I was working with a way to include the Directions and Ingredients on the same page, with sample recipe photos.</figcaption>
     </figure>
+
+    <figure class="sketching-images">
+      <img class="sketching-image2" src="media/images/mise-sketch3.jpg" alt="Sketching Examples">
+        <figcaption class="figcaptionblack2">I began to weigh the options of lists, and how many details should be included in them. One idea was to include images with each recipe category.</figcaption>
+    </figure>
+
   </section>
 
 <!-- Wireframes -->
-  <section class="Wireframes-section">
+  <section class="Mise-Wireframes-section">
     <div class="Wireframe-head">
       <h2 class="bloon-h3">Wireframes</h2>
-        <p>Refining my sketches into lo-fi wireframes was helpful for cutting out the unnecessary buttons and features that had started to sneak into my sketches. </p>
+        <p>An exciting (and also daunting) challenge for a recipe application to address is the amount of information that needs to be included on screens, and in a clear and easy to red way. If users were not able to quickly glance at the interface and receive exactly the small piece of information they were looking for (an ingredient, or a temperature) then the app would not be solving my core problems.
+          <br><br>
+            Wireframing out the recipe screens for the first time unearthed how nuanced this challenge would be.
+          <br><br>
+            My early goal of including Directions and Ingredients simultaneously on the recipe page faced an issue with early testing, as Direction text was not able to fit in an easily readable way.
+          <br><br>
+            Questions also started to arise of how much imagery to include in the screens, and how this would help (or hinder) the user flow. </p>
     </div>
     <figure class="Wireframe-images">
-      <img class="Wireframe-image1" src="media/images/Wireframe-1.jpg" alt="Wireframe 1">
-    </figure>
-        <section class="pro-con-details">
-          <div class="pro-con-box">
-            <ul class="pro-con-list">
-              <li><h2 class="pro-con-h2">PROS</h2></li>
-                <li>Users able to see which Account they're in</li>
-                <li>Users navigated quickly around dashboard</li>
-            </ul>
-            <ul class="pro-con-list2">
-              <li><h2 class="pro-con-h2">CONS</h2></li>
-                <li>Users didn't like upload prompt bubble</li>
-                <li>Users didn't like "Reminders" tool</li>
-            </ul>
-          </div>
-        </section>
-      <figure class="Wireframe-images">
-        <img class="Wireframe-image2" src="media/images/Wireframe-2.jpg" alt="Wireframe 2">
-      </figure>
-        <section class="pro-con-details">
-          <div class="pro-con-box">
-            <ul class="pro-con-list">
-              <li><h2 class="pro-con-h2">PROS</h2></li>
-              <li>Users preferred a list view over a grid view</li>
-            </ul>
-            <ul class="pro-con-list2">
-              <li><h2 class="pro-con-h2">CONS</h2></li>
-                <li>Users wished for a "drag and drop" feature</li>
-            </ul>
-          </div>
-        </section>
-      <figure class="Wireframe-images">
-        <img class="Wireframe-image3" src="media/images/Wireframes-3.jpg" alt="Wireframe 3">
-      <figcaption class="figcaptionblack2">Mobile account selection, dashboard, and upload CTA.</figcaption>
+      <img class="Wireframe-image1" src="media/images/Mise-Wireframe-Img.jpg" alt="Wireframe 1">
     </figure>
   </section>
 
 <!-- Prototyping Conclusions -->
   <section class="protoyping-con-section">
     <div class="PC-head">
-      <h2 class="bloon-dark-h2">Early Prototyping Conclusions</h2>
-        <p class="p-bloon-dark">The biggest takeaways from testing early prototypes was that users needed to easily see which files they’d already shared with other users. Some form of indication is necessary when viewing content, so users know what is still private, and what has been shared.
-        <br><br>I also learned that users depend heavily on the ability to “drag and drop” content into their homepage. While the create/add button is important, a cloud product needs to contain drag and drop functionality.</p>
+      <h2 class="bloon-dark-h2">Takeaways from Sketching and Wireframing</h2>
+        <p class="p-bloon-dark">Working through my sketches, and beginning to test with Wireframes, the questions that arose the most were that of layout/spacing and information architecture. Within this app there are moments where a lot of text and information needs to be displayed on screen (especially within the recipes). I was often facing questions of how best to organize the information architecture, and ultimately, realized I would need to employ swiping screens and drop-downs to maximize space.<br><br>At this point I was ready to continue with building a clean UI that solves the central problem of displaying core recipe details (Directions + Ingredients). But first I needed to establish a brand direction and style guide. </p>
     </div>
   </section>
 
@@ -294,16 +274,15 @@
   <section class="Branding-Section">
     <div class="Branding-head">
       <h2 class="bloon-h2">Branding</h2>
-        <p>As development on the product design continued, an important component of this project was developing a brand identity to match. As I iterated through mind mapping exercises, sketching, and more conversations with potential users, I landed on the name Bloon.<br><br>Bloon forms a playful variation of the word balloon, which conveys imagery of being in the sky/clouds. (Plus, a balloon is a hard thing not to like!)<br><br>The entire brand identity was developed with <span class="bold-p">simplicity</span> and <span class="bold-p">minimalism</span> in mind, two key tenants of Bloon’s product.</p>
+        <p>Creating a brand for this app was a lot of fun.
+          <br><br>
+          The name of the app, Mise en Place, roots itself in the classic traditions of French chefs (having all of your ingredients and directions ready before you begin). As for color, I started out brainstorming in a limited, monochromatic color palette, with very neutral colors and not a lot of variety. I realized quickly that this was an app that promotes creativity, inspiration, and needed lots of bold color choices. Cooking is a creative and personal exercise, and I felt the UI for this app should inspire creativity and an approachable attitude to cooking (and also, allow users to have a bit of fun at the same time and not take the task at hand too seriously).
+        <br><br>
+        This is an application that has a large base of core users, so I was challenged with developing a brand that suited everyone. The solution I landed on is a modern look that appeals to young users, and older users alike. It will inspire users of all ages to have fun in the kitchen, and to not be intimidated by ingredients and directions.</p>
     </div>
     <figure class="Branding-images">
-        <img class="Brand-image1" src="media/images/Mind-Map.jpg" alt="Mind Mapping Exercise">
-        <figcaption class="figcaptionblack">A mind mapping exercise to begin moving in a direction for the product name.</figcaption>
-    </figure>
-
-    <figure class="Branding-images">
-        <img class="Brand-image2" src="media/images/Brand-Image2.jpg" alt="Branding Sketches">
-        <figcaption class="figcaptionblack">Earliest sketches and iterations for a Bloon wordmark logo, and final vector logo.</figcaption>
+        <img class="Brand-image1" src="media/images/mise-branding-img.jpg" alt="Mind Mapping Exercise">
+        <figcaption class="figcaptionblack">Some early concepts I sketched for a logo and name for the app.</figcaption>
     </figure>
   </section>
 
@@ -313,8 +292,9 @@
       <h2 class="bloon-h2">Final Brand Deliverables</h2>
         <p>Creating a style guide for the Bloon brand revolved around coming back to the two principles of <span class="bold-p">simplicity</span> and <span class="bold-p">minimalism</span>. From the san-serif typography, to the color accessibility grades, everything needed to be simple, clean and widely accessible.
         <br><br>The branding also features custom illustration work that I created.</p>
-      <div class="cta3">
-        <a href="media/images/Bloon-Style-Guide.pdf" target="_blank" class="cta-3">View Style Guide</a>
+      <div class="mise-cta3">
+        <a href="media/images/mise-marketing-page.pdf" target="_blank" class="mise-cta">Marketing Page</a>
+        <a href="media/images/mise-style-guide.pdf" target="_blank" class="mise-cta2">Style Guide</a>
       </div>
     </div>
   </section>
@@ -322,48 +302,45 @@
 <!-- Hi-Fi Designs -->
   <section class="Final-Designs">
     <div class="FD-head">
-      <h2 class="bloon-h2">Final Designs</h2>
-        <p>I created a hi-fidelity prototype to test on users. Since the ability to switch accounts is so important to this product, testing focused heavily on the ability to move between Home and Work accounts inside the application when prompted.<br><br>
-        After this round of testing, it was clear there needed to be an easier way to “ground” users in which account they were currently in.<br><br>
-        Adjustments were made along the way to the final design that helped establish location within the application. Furthermore, pop-up screens were moved up to accommodate smaller viewports.<br><br>
-        Here is a collection of some important moments from that first iteration of the Bloon product:
+      <h2 class="bloon-h2">High-Fidelity Prototyping</h2>
+        <p>Iterating through the visual design process saw me testing four rounds of Hi-Fi screens on users with an InVision prototype, and then in the final round of testing, a Figma Prototype (I prefer to prototype in Figma, due to the extra control it allows with micro-animations and usability for testing participants). These rounds of testing took place remote over Zoom in the middle of the Covid-19 crisis.
         </p>
     </div>
     <figure class="FD-images">
-      <img class="FD-image" src="media/images/Final-Design1.jpg" alt="Final Design Shot">
-        <figcaption class="figcaptionblack">First iteration of the Desktop Account Dashboard.</figcaption>
+      <img class="FD-image" src="media/images/mise-mock1.jpg" alt="Final Design Shot">
+        <figcaption class="figcaptionblack">Through four rounds of iteration, major changes were made to how the main Recipe Screen displays. The Recipe Title was moved into the top Nav, to save space and also display more prominently. Recipe details were made clearer, and Directions were switched with Ingredients so that they appear first. I also added a clickable label that further clarifies for users swipe feature from Directions to Ingredients.  This is also a good screen to point out the change in secondary typefaces.</figcaption>
     </figure>
     <figure class="FD-images">
-      <img class="FD-image" src="media/images/Final-Design2.jpg" alt="Final Design Shot">
+      <img class="FD-image" src="media/images/mise-mock2.jpg" alt="Final Design Shot">
         <figcaption class="figcaptionblack">Refined Desktop Account Dashboard, showing users which account they are in (top right),<br>and adjusting Grid/List icons.</figcaption>
     </figure>
     <figure class="FD-images">
-      <img class="FD-image" src="media/images/Final-Design3.jpg" alt="Final Design Shot">
-        <figcaption class="figcaptionblack">First and second iterations of Desktop photo viewing (expanding photo size).</figcaption>
+      <img class="FD-image" src="media/images/mise-mock3.jpg" alt="Final Design Shot">
+        <figcaption class="figcaptionblack">The main “All Recipes” Screen (where users find and search for new recipes)  moved from a colorful patch of colors to a more photo-forward design. Testing revealed that users had an easier time identify categories with photos. I also performed some A/B testing that confirmed this visual direction. The app’s main search bar was also transformed through iteration, growing larger and easier to read.</figcaption>
     </figure>
     <figure class="FD-images">
-      <img class="FD-image" src="media/images/Final-Design4.jpg" alt="Final Design Shot">
-        <figcaption class="figcaptionblack">First and second iterations of account selection.</figcaption>
+      <img class="FD-image" src="media/images/mise-mock4.jpg" alt="Final Design Shot">
+        <figcaption class="figcaptionblack">The app’s Home screen received a number of minor adjustments through testing. Here is a good comparison for how the search bar changed, the CTA buttons (and copy) for the welcoming “Today’s Taste” feature, and the readability improvement on the “Jump back in” icons.</figcaption>
     </figure>
     <figure class="FD-images">
-      <img class="FD-image" src="media/images/Final-Design5.jpg" alt="Final Design Shot">
+      <img class="FD-image" src="media/images/mise-mock5.jpg" alt="Final Design Shot">
         <figcaption class="figcaptionblack">Improving on the item highlight when hovering.</figcaption>
     </figure>
   </section>
 
 <!-- Conclusion -->
   <section class="Conclusion-image">
-    <img class="bloon-3-screen" src="media/images/Conclusion-image.jpg" alt="3 Screen Mockup Final Design">
+    <img class="bloon-3-screen" src="media/images/Mockup1.jpg" alt="3 Screen Mockup Final Design">
   </section>
   <section class="conclusion-section">
     <div class="conclusion-head">
       <h2 class="bloon-h2">Conclusion</h2>
-        <p>This project forced me to rethink the mainstream cloud services we use to store and share content, and the ways in which we can simplify these products to better organize digital lives.<br><br>
-        As a mainstream tool used by a diverse user base, it was hard to identify a niche market within the cloud storage market to serve. There are many “subgroups” of users in this space, but finding one to design for took research and iterating on the problems coming up while surveying.<br><br>
-        It was vital to continue digging throughout the research and discovery phases of this project to understand what is frustrating cloud users.<br><br>
-        The primary solution that Bloon proposes—the strict division of Work and Home content—surprised me in its simplistic nature, and how it hasn’t already been adopted by DropBox, Box, and Google Drive. I did not initially realize that this would be the core scope of the product. I believe this solution that is proposed with Bloon offers a simple answer to a real problem currently facing many cloud storage users.<br><br>
-        In retrospect, it would have been helpful to spend even more time surveying and conducting conversations with a wide array of users. Time constraints limited the amount of research I was able to perform, but a wider net of opinions, ideas, and experiences would have greatly benefited the scope of this project.<br><br>
-        I learned the value that constraints add to the design process, and the problems that can arise in an open-ended project.</p>
+        <p>If I had more time and resources I would want to continue testing and iterating over this minimum viable product (MVP). Specifically, I would like to build a social aspect to the app that helps users see what their friends and family are cooking, and be able to interact accordingly and share recipes within the app.
+          <br><br>
+          Being in a situation where I was forced to conduct all my testing remotely taught me a lot about the possibilities (and drawbacks) of testing remotely. On the upside, you can reach more participants faster and conduct more tests when you are doing all remote tests. In these situations, the script you develop to walk participants through your prototype becomes even more important. In order for you to take real data away from the testing experience, you need to help them feel comfortable with your prototype from afar.
+          <br><br>
+          Taking the time to learn and adjust to the best technologies to assist with remote testing is well worth the UX payoff.
+          </p>
         <br><br><h3>Thanks for reading!</h3>
     </div>
   </section>
@@ -387,5 +364,31 @@
 
   </body>
 
-    <script src="myscripts.js"></script>
+<script>
+var ctx = document.getElementById('myChart3');
+var myDoughnutChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: ["Ingredients", "Directions", "Timing & Yield", "Prep advice",],
+        datasets: [{
+            label: '# of Votes',
+            data: [88, 96, 46, 15],
+            backgroundColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+            ],
+            borderWidth: 2
+        }]
+    },
+});
+</script>
+
+
+
 </html>
