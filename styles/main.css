@@ -33,6 +33,15 @@ html {
   width: 100%;
 }
 
+.top-busybus {
+  background: #DDAA00;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+
 #navbar {
   z-index: 99;
   position: fixed;
@@ -595,6 +604,17 @@ footer {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.bb-hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bb-gif {
+  width: 60%;
+  height: auto;
 }
 
 /* Summary */
@@ -1567,6 +1587,11 @@ a:hover {
   object-fit: contain;
 }
 
+.bb-gif {
+  width: 20%;
+  height: auto;
+}
+
 .sh2 {
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
@@ -1708,6 +1733,7 @@ footer {
 .bloon-5-screen {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 /* Summary */
@@ -1965,6 +1991,7 @@ figcaption {
   color: #636363;
   padding: 0 0 5rem 0;
   text-align: center;
+  width: 55%;
 }
 
 .see-more-link {
