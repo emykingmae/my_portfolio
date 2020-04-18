@@ -255,6 +255,15 @@ p {
   line-height: 2.7rem;
 }
 
+.bold-p-dark {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+}
+
 .cta-1 {
   margin-top: 4.3rem;
   background-color: #fff;
@@ -347,6 +356,44 @@ p {
   border: .5rem solid #3B95FF;
   transform: translateY(4px);
 }
+
+
+.cta-connect {
+  color: #fff;
+  background-color: #2E2E2E;
+  font-size: 1.8rem;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20.3rem;
+  height: 5.6rem;
+  left: 22rem;
+  top: 48.9rem;
+  box-sizing: border-box;
+  padding-left: 5.3rem;
+  border: .5rem solid #2E2E2E;
+  transition: all .2s;
+}
+
+.cta-connect:hover {
+  color: #2E2E2E;
+  background-color: #fff;
+  border: .5rem solid #2E2E2E;
+}
+
+.cta-connect:active{
+  color: #fff;
+  background-color: #3B95FF;
+  border: .5rem solid #3B95FF;
+  transform: translateY(4px);
+}
+
+
+
+
 
 .mise-cta:active{
   color: #fff;
@@ -552,10 +599,27 @@ footer {
   text-align: center;
 }
 
+.connecth2 {
+  margin-bottom: 2rem;
+}
+
+.coded {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #2E2E2E;
+  line-height: 2.1rem;
+}
+
+.bottom {
+  padding-top: 5rem;
+  margin: 0 2rem 0 2rem;
+}
+
 .footer-text p {
   padding: 1rem 8rem 5rem 8rem;
 }
-
 
 .footer-icons {
   display: inline;
@@ -608,8 +672,10 @@ footer {
 
 .bb-hero-image {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .bb-gif {
@@ -637,6 +703,16 @@ footer {
   font-size: 3.2rem;
   line-height: 4.8rem;
   padding-bottom: 3rem;
+  color: #431FA8;
+}
+
+.bb-h2 {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  padding: 5rem 0 3rem 0;
   color: #431FA8;
 }
 
@@ -711,7 +787,7 @@ footer {
 }
 
 .p-bloon-dark {
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'PT Sans', 'sans serif';
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -720,7 +796,7 @@ footer {
 }
 
 .mise-list {
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'PT Sans', 'sans serif';
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -730,10 +806,89 @@ footer {
   margin: auto;
 }
 
+.bb-ur-list {
+  list-style: disc;
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #232323;
+  line-height: 2.7rem;
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.bb-list {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+  width: 100%;
+  margin: auto;
+  padding: 5rem 0 5rem 0;
+}
+
+#circle-1{
+    background: #EFBB40;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+#circle-2{
+    background: #46A1F7;;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.innerTEXT{
+    font-family: 'Poppins', 'sans serif';
+    font-weight: 700;
+    color: #2E2E2E;
+    font-size: 1.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.innerTEXT2 {
+    font-family: 'Poppins', 'sans serif';
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bb-prob-list {
+  display: flex;
+  align-items: center;
+}
+
 .problem-inner {
   width: 90%;
   margin: auto;
   padding: 12rem 0 0 0;
+}
+
+
+.bb-problem-inner {
+  width: 90%;
+  margin: auto;
+  padding: 12rem 0 12rem 0;
 }
 
 .ct-tweet {
@@ -992,6 +1147,10 @@ figcaption {
  align-items: center;
  flex-direction: column;
  justify-content: center;
+}
+
+.bb-chart {
+  padding: 8rem 0 5rem 0;
 }
 
 .sketching-image1 {
@@ -1748,17 +1907,6 @@ footer {
   padding-top: 12rem;
 }
 
-
-.bloon-h2 {
-  font-family: 'Poppins', 'sans serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.2rem;
-  line-height: 4.8rem;
-  padding-bottom: 3rem;
-  color: #431FA8;
-}
-
 .project-details {
   width: 100%;
   margin-top: 5rem;
@@ -1814,7 +1962,7 @@ footer {
 }
 
 .p-bloon-dark {
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'PT Sans', 'sans serif';
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -1826,6 +1974,12 @@ footer {
   width: 90rem;
   margin: auto;
   padding: 12rem 0 0 0;
+}
+
+.bb-problem-inner {
+  width: 90rem;
+  margin: auto;
+  padding: 20rem 0 20rem 0;
 }
 
 .ct-tweet {
@@ -2411,6 +2565,11 @@ figcaption {
 }
 
 .mise-list {
+  width: 80%;
+  margin: auto;
+}
+
+.bb-list {
   width: 80%;
   margin: auto;
 }
