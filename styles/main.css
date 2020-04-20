@@ -685,6 +685,8 @@ footer {
 
 .bb-gif {
   width: 60%;
+  height: 60%;
+  display: block;
   object-fit: contain;
 }
 
