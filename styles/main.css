@@ -33,6 +33,16 @@ html {
   width: 100%;
 }
 
+
+.top-running {
+  background: #494CBC;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+
 .top-busybus {
   background: #DDAA00;
   height: 1.6rem;
@@ -172,6 +182,26 @@ a:hover {
 }
 
 
+.case-block {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 75%;
+  padding-top: 12rem;
+}
+
+.ux-work {
+  padding-bottom: 10rem;
+}
+
+.case-block aside img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+
+}
+
+
 h1 {
   font-family: 'Poppins', 'sans-serif';
   font-style: normal;
@@ -237,6 +267,11 @@ h3 {
   color: #2E2E2E;
 }
 
+.lightbulb {
+  width: 10%;
+  margin-bottom: 3rem;
+}
+
 p {
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
@@ -282,6 +317,27 @@ p {
   box-sizing: border-box;
   padding-left: 2.2rem;
   transition: all .2s;
+
+}
+
+.cta-cs {
+  display: flex;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 400;
+  font-size: 1.8rem;
+  transition: all .2s;
+  color: #431FA8;
+}
+
+.cta-cs:active{
+  transform: translateY(4px);
+}
+
+.cta-cs:hover {
+  color: #7C5DD4;
+  transition: .3s;
 }
 
 .cta-5 {
@@ -415,6 +471,11 @@ p {
   border: .5rem solid #431FA8;
 }
 
+
+.work-section {
+  background: #F0F0F0;
+}
+
 .cta-5:hover {
   color: #FFF;
   background-color: #431FA8;
@@ -435,6 +496,7 @@ p {
   border: .5rem solid #150739;
   transform: translateY(4px);
 }
+
 
 .cta-4:hover {
   color: #FFF;
@@ -536,6 +598,13 @@ p {
   margin-bottom: 12rem;
 }
 
+.run-project-text {
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 12rem;
+  width: 80%;
+}
 
 .skills-section {
   width: 100%;
@@ -675,6 +744,20 @@ footer {
   object-fit: contain;
 }
 
+.run-hero {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-run-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .bb-hero-image {
   width: 100%;
   height: auto;
@@ -688,6 +771,15 @@ footer {
   height: 60%;
   display: block;
   object-fit: contain;
+}
+
+
+.run-gif {
+    width: 60%;
+    height: 60%;
+    display: block;
+    object-fit: contain;
+    margin-top: 3rem;
 }
 
 /* Summary */
@@ -802,12 +894,45 @@ footer {
   line-height: 2.7rem;
 }
 
+.p-bloon-dark-bold {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+}
+
 .mise-list {
   font-family: 'PT Sans', 'sans serif';
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
   color: #fff;
+  line-height: 2.7rem;
+  width: 100%;
+  margin: auto;
+}
+
+.running-list {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #2E2E2E;
+  line-height: 2.7rem;
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+  list-style: disc;
+}
+
+.run-list {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #2E2E2E;
   line-height: 2.7rem;
   width: 100%;
   margin: auto;
@@ -905,6 +1030,10 @@ footer {
 .mise-problem {
   width: 75%;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.run-problem {
+  width: 85%;
 }
 
 .tweet {
@@ -1087,6 +1216,29 @@ figcaption {
   padding: 6rem 0 2rem 0;
 }
 
+.run1-image {
+  width: 90%;
+  margin: 3rem 0 3rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run4-image {
+  width: 90%;
+  margin: 3rem 0 8rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run2-image {
+  width: 40%;
+  margin: 5rem 0 3rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run3-image {
+  width: 95%;
+  margin: 3rem 0 8rem 0;
+}
+
 .UF-images {
   width: 100%;
   display: flex;
@@ -1221,6 +1373,11 @@ figcaption {
 
 .Wireframe-image1 {
   max-width: 90%;
+}
+
+.run-flows {
+  width: 90%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Wireframe-image2 {
@@ -1728,6 +1885,29 @@ a:hover {
   padding-right: 25rem;
 }
 
+
+.case-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  max-width: 55%;
+  padding-top: 12rem;
+}
+.ux-work {
+  display: block;
+  padding-bottom: 12rem;
+}
+
+.case-block aside img {
+  height: 25rem;
+  width: 25rem;
+  margin-right: 6rem;
+  object-fit: contain;
+}
+
+
+
 .h3-hero {
   font-family: 'PT Sans', 'sans-serif';
   font-style: normal;
@@ -1791,6 +1971,13 @@ a:hover {
 .bb-gif {
   width: 20%;
   height: auto;
+}
+
+
+.run-gif {
+  width: 60%;
+  height: auto;
+  margin-top: 3rem;
 }
 
 .sh2 {
@@ -1937,6 +2124,19 @@ footer {
   object-fit: contain;
 }
 
+.hero-run-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.run-hero {
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* Summary */
 
 .summary-section {
@@ -2032,6 +2232,10 @@ footer {
 .mise-problem {
   width: 50%;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.run-problem {
+  width: 40%;
 }
 
 .tweet {
@@ -2168,6 +2372,29 @@ figcaption {
  .UF-image {
    width: 50%;
    padding: 6rem 0 2rem 0;
+}
+
+.run1-image {
+  width: 90%;
+  margin: 3rem 0 3rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run4-image {
+  width: 90%;
+  margin: 3rem 0 8rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run2-image {
+  width: 30%;
+  margin: 5rem 0 3rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.run3-image {
+  width: 100%;
+  margin: 3rem 0 8rem 0;
 }
 
 .UF-images {
@@ -2307,6 +2534,11 @@ figcaption {
 
 .Wireframe-image1 {
   width: 60%;
+}
+
+.run-flows {
+  width: 95%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Wireframe-image2 {
@@ -2559,6 +2791,7 @@ figcaption {
   display: none;
 }
 
+
 .work {
   width: 100%;
   height: auto;
@@ -2597,6 +2830,7 @@ figcaption {
   width: 70%;
 }
 
+
 .bloon-img {
   margin-top: 10rem;
   margin-bottom: 3rem;
@@ -2626,6 +2860,14 @@ figcaption {
   padding-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 12rem;
+}
+
+.run-project-text {
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 12rem;
+  width: 50%;
 }
 
 .skills-section {
@@ -2759,6 +3001,9 @@ footer {
   object-fit: contain;
 }
 }
+
+
+
 
 /* Large screens */
 
@@ -3018,6 +3263,17 @@ footer {
   margin-right: 20%;
   margin-left: 2rem;
   width: 90%;
+}
+
+.run-project-text {
+  border-left: .8rem solid #FFC3C3;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  margin-right: 20%;
+  margin-left: 2rem;
+  width: 95%;
+
 }
 
 .image-wrapper {
