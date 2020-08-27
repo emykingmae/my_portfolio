@@ -33,9 +33,17 @@ html {
   width: 100%;
 }
 
+.top-urality {
+  background: #006E78;
+  height: 1.6rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+}
 
 .top-running {
-  background: #494CBC;
+  background: #004E55;
   height: 1.6rem;
   position: absolute;
   left: 0rem;
@@ -720,14 +728,25 @@ footer {
   padding-bottom: 6rem;
 }
 
+.h3-urality {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #2E2E2E;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
 .space {
   height: 5rem;
 }
 
+
 .bloon-hero {
   width: 80%;
   margin: auto;
-  padding-top: 12rem;
+  padding-top: 10rem;
 }
 
 .bloon-hero-inner {
@@ -758,6 +777,12 @@ footer {
   height: auto;
   object-fit: contain;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.urality-hero {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .hero-run-image {
@@ -2117,9 +2142,10 @@ footer {
 
 /* Bloon Case Study DESKTOP */
 
+
 .bloon-hero {
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .bloon-hero-inner {
@@ -2151,6 +2177,12 @@ footer {
   height: auto;
   object-fit: contain;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.urality-hero {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
 }
 
 /* Summary */
@@ -3033,6 +3065,10 @@ footer {
   width: 20%;
 }
 
+.h3-urality {
+  width: 20%;
+}
+
 .about-hero-inner {
   max-width: 65%;
   margin: auto;
@@ -3097,6 +3133,10 @@ footer {
 
 @media only screen and (min-width: 2000px) {
 .h3-bloon {
+  width: 15%;
+}
+
+.h3-urality {
   width: 15%;
 }
 
