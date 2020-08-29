@@ -791,6 +791,12 @@ footer {
     justify-content: center;
 }
 
+.hero-urality-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
 
 .bb-hero-image {
   width: 100%;
@@ -2170,6 +2176,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-urality-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
 }
 
 .run-hero {
