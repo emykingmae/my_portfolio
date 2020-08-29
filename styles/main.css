@@ -224,8 +224,9 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 2.8rem;
-  line-height: 5.4rem;
+  line-height: 4rem;
   color: #431FA8;
+  text-align: left;
 }
 
 
@@ -720,7 +721,7 @@ footer {
   font-weight: 700;
   font-size: 2rem;
   color: #2E2E2E;
-  text-align: center;
+  text-align: left;
   padding-bottom: 6rem;
 }
 
@@ -1068,6 +1069,12 @@ footer {
   width: 90%;
   margin: auto;
   padding: 12rem 0 0 0;
+}
+
+.ur-problem-inner {
+  width: 90%;
+  margin: auto;
+  padding: 12rem 0 12rem 0;
 }
 
 .bb-problem-inner {
@@ -2296,6 +2303,12 @@ footer {
   width: 90rem;
   margin: auto;
   padding: 12rem 0 0 0;
+}
+
+.ur-problem-inner {
+  width: 90rem;
+  margin: auto;
+  padding: 12rem 0 12rem 0;
 }
 
 .bb-problem-inner {
