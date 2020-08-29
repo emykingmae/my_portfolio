@@ -464,10 +464,6 @@ p {
   transform: translateY(4px);
 }
 
-
-
-
-
 .mise-cta:active{
   color: #fff;
   background-color: #3B95FF;
@@ -795,7 +791,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .bb-hero-image {
@@ -833,6 +828,13 @@ footer {
   width: 90%;
   padding-top: 3rem;
   margin: auto;
+}
+
+.urality-summary-head {
+  width: 90%;
+  padding-top: 3rem;
+  margin: auto;
+  padding-bottom: 8rem;
 }
 
 .bloon-h2 {
@@ -976,6 +978,18 @@ footer {
   line-height: 2.7rem;
   width: 100%;
   margin: auto;
+}
+
+.urality-list {
+  font-family: 'PT Sans', 'sans serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #2E2E2E;
+  line-height: 2.7rem;
+  width: 50%;
+  margin: auto;
+
 }
 
 .bb-ur-list {
@@ -2207,6 +2221,12 @@ footer {
 .summary-head {
   width: 90rem;
   padding-top: 12rem;
+}
+
+.urality-summary-head {
+  width: 90rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 .project-details {
