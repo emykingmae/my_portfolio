@@ -795,7 +795,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
+
 }
 
 .bb-hero-image {
@@ -2182,7 +2182,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
 }
 
 .run-hero {
