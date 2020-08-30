@@ -581,6 +581,15 @@ p {
   width: 75%;
 }
 
+.fun-images {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
 .bloon-img {
   margin-top: 10rem;
   margin-bottom: 3rem;
@@ -1144,11 +1153,13 @@ figcaption {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .solution-img {
-  width: 95%;
+  width: 45%;
   padding-top: 5rem;
+
 }
 
 /* User Research */
@@ -1160,6 +1171,13 @@ figcaption {
 
 .UR-head {
   width: 90%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.UR-2-section {
+  width: 90rem;
   margin: auto;
   padding-top: 5rem;
 }
@@ -1283,6 +1301,11 @@ figcaption {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
+.run9-image {
+  width: 90%;
+  margin: 3rem 0 3rem 0;
+}
+
 .run4-image {
   width: 90%;
   margin: 3rem 0 8rem 0;
@@ -1355,10 +1378,21 @@ figcaption {
   background: #F0F0F0;
 }
 
+.urality-Sketching-section {
+  width: 100%;
+  background: #F0F0F0;
+  padding: 8rem 0 8rem 0;
+}
+
 .sketching-head {
   width: 90%;
   margin: 0 auto;
   padding: 10rem 0 6rem 0;
+}
+
+.ur-sketching-head {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .bloon-h3 {
@@ -1372,11 +1406,11 @@ figcaption {
 }
 
 .sketching-images {
- width: 100%;
  display: flex;
  align-items: center;
  flex-direction: column;
  justify-content: center;
+ object-fit: contain;
 }
 
 .bb-chart {
@@ -1386,6 +1420,9 @@ figcaption {
 .sketching-image1 {
   width: 90%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.sketching-images {
+  width: 95%;
 }
 
 .sketching-image2 {
@@ -2377,10 +2414,22 @@ figcaption {
   padding-top: 5rem;
 }
 
+.ur-solution-img {
+  width: 45%;
+  height: auto;
+  padding-top: 5rem;
+}
+
 /* User Research */
 
 
 .UR-head {
+  width: 90rem;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.UR-2-section {
   width: 90rem;
   margin: auto;
   padding-top: 5rem;
@@ -2473,6 +2522,11 @@ figcaption {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
+.run9-image {
+  width: 90%;
+  margin: 3rem 0 3rem 0;
+}
+
 .run4-image {
   width: 90%;
   margin: 3rem 0 8rem 0;
@@ -2507,7 +2561,7 @@ figcaption {
   color: #636363;
   padding: 0 0 5rem 0;
   text-align: center;
-  width: 55%;
+  width: 65%;
 }
 
 .figcaptionwhite {
@@ -2559,10 +2613,21 @@ figcaption {
   background: #F0F0F0;
 }
 
+.urality-Sketching-section {
+  width: 100%;
+  background: #F0F0F0;
+  padding: 12rem 0 12rem 0;
+}
+
 .sketching-head {
   width: 90rem;
   margin: 0 auto;
   padding: 14.6rem 0 6rem 0;
+}
+
+.ur-sketching-head {
+  width: 90rem;
+  margin: 0 auto;
 }
 
 .bloon-h3 {
@@ -2576,16 +2641,29 @@ figcaption {
 }
 
 .sketching-images {
-  width: 100%;
+
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
+.fun-images {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
 .sketching-image1 {
   width: 50%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sketching-image10 {
+  width: 85%;
+
 }
 
 .sketching-image2 {
