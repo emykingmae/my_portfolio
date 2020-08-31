@@ -378,6 +378,12 @@ p {
   transition: all .2s;
 }
 
+.ur-solution-img {
+  width: 85%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .cta-4 {
   margin: 4.3rem 0 6.3rem 0;
   background-color: #fff;
@@ -579,6 +585,9 @@ p {
   margin-top: 8rem;
   padding-left: 3rem;
   width: 75%;
+}
+
+.ur-sketches {
 }
 
 .fun-images {
@@ -999,7 +1008,7 @@ footer {
   line-height: 2.7rem;
   width: 50%;
   margin: auto;
-
+  padding-bottom: 5rem;
 }
 
 .bb-ur-list {
@@ -1153,7 +1162,6 @@ figcaption {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .solution-img {
@@ -1390,9 +1398,10 @@ figcaption {
   padding: 10rem 0 6rem 0;
 }
 
-.ur-sketching-head {
-    width: 90%;
-    margin: 0 auto;
+.sketching-head2 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6rem 0 3rem 0;
 }
 
 .bloon-h3 {
@@ -1402,6 +1411,15 @@ figcaption {
   font-size: 3.2rem;
   line-height: 4.8rem;
   padding-bottom: 3rem;
+  color: #2E2E2E;
+}
+
+.bloon-h4 {
+  font-family: 'Poppins', 'sans serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 4.8rem;
   color: #2E2E2E;
 }
 
@@ -1421,6 +1439,13 @@ figcaption {
   width: 90%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
+
+.ur-cx-sketch {
+  width: 90%;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+
 .sketching-images {
   width: 95%;
 }
@@ -2415,9 +2440,10 @@ figcaption {
 }
 
 .ur-solution-img {
-  width: 45%;
+  width: 55%;
   height: auto;
   padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 /* User Research */
@@ -2625,9 +2651,10 @@ figcaption {
   padding: 14.6rem 0 6rem 0;
 }
 
-.ur-sketching-head {
+.sketching-head2 {
   width: 90rem;
   margin: 0 auto;
+  padding: 0rem 0 6rem 0;
 }
 
 .bloon-h3 {
@@ -2661,9 +2688,9 @@ figcaption {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
+
 .sketching-image10 {
   width: 85%;
-
 }
 
 .sketching-image2 {
@@ -3053,6 +3080,17 @@ figcaption {
 .bb-list {
   width: 80%;
   margin: auto;
+}
+
+
+.ur-sketches {
+  display: flex;
+  flex-direction: row;
+}
+
+.ur-cx-sketch {
+  width: 80%;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .mise-POVs-mobile {
