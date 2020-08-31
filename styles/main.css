@@ -1303,6 +1303,14 @@ figcaption {
   padding: 6rem 0 2rem 0;
 }
 
+.ur-pov-image {
+  width: 90%;
+  padding: 6rem 0 0rem 0;
+  margin-bottom: 1rem;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+
 .run1-image {
   width: 90%;
   margin: 3rem 0 3rem 0;
@@ -2542,6 +2550,7 @@ figcaption {
    padding: 6rem 0 2rem 0;
 }
 
+
 .run1-image {
   width: 90%;
   margin: 3rem 0 3rem 0;
@@ -2955,6 +2964,12 @@ figcaption {
 
 .nav_links {
   margin-left: 5rem;
+}
+
+.ur-pov-image {
+  width: 70%;
+  padding: 4rem 0 0rem 0;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .hero {
