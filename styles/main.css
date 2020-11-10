@@ -3250,13 +3250,6 @@ footer {
   max-width: 75%;
 }
 
-.h3-bloon {
-  width: 20%;
-}
-
-.h3-urality {
-  width: 20%;
-}
 
 .about-hero-inner {
   max-width: 65%;
@@ -3321,13 +3314,6 @@ footer {
 }
 
 @media only screen and (min-width: 2000px) {
-.h3-bloon {
-  width: 15%;
-}
-
-.h3-urality {
-  width: 15%;
-}
 
 .jt_logo {
   margin-left: 30rem;
