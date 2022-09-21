@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34726807-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-34726807-2');
+</script>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio | Justin Thrift</title>
+     <link rel="stylesheet" href="styles/reset.css">
+     <link rel="stylesheet" href="styles/main.css">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPT+Sans:400,700%7CPoppins:400,700,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+     <link rel="shortcut icon" href="media/images/jt-favi.svg" type="image/x-icon" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+   </head>
+
+<body>
+
+<!-- navigation -->
+
+<div id="navbar">
+  <div class="jt_logo">
+    <a href="index.html">
+      <object data="media/images/logo.svg?global=paused" type="image/svg+xml"
+        onmouseover="playAnimation(this)"></object>
+    </a>
+  </div>
+  <div class="top"></div>
+    <ul class="nav_links">
+      <li class="Active-nav">
+        <a class="active" href="#work">Work</a>
+      </li>
+      <li>
+        <a href="About.html">About</a>
+      </li>
+      <li>
+        <a href="mailto:justinbthrift@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
+      </li>
+  </ul>
+</div>
+
+
+<script>
+function playAnimation(obj)
+{
+if (obj.contentDocument && obj.contentDocument.ks) {
+  var ks = obj.contentDocument.ks;
+  if (ks.timelines()[0].state() != "running") {
+      ks.timelines()[0].time(0);
+  }
+  ks.globalPlay();
+}
+}
+</script>
+<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
+<!-- Hero Section -->
+
+  <section class="hero">
+    <div class="hero-inner">
+        <h1 class="hero-h1 animated fadeInLeft delay-0">Hello there! I'm Justin <span class="iconify" data-inline="false" data-icon="emojione:waving-hand" style="font-size: 4rem;"></span> </h1>
+        <h3 class="h3-hero animated fadeInRight delay-0">I'm a designer proficient in user research, information architecture, and visual design. I have experience in project management, which informs business strategy and collaboration in my process.<br><br>I'm currently doing the best work of my career designing content for tech leaders @ <a href="https://www.reforge.com/" target="_blank" class="external-cta-cs">Reforge</a>.</h3>
+        <a href="About.html" class="cta-1">more about me</a>
+        <a href="#work"><p class="see-more animated pulse delay-3s">See some of my past work<i class="fas fa-level-down-alt"></i></p></a>
+      </div>
+  </section>
+
+  <!-- Case Studies -->
+
+<section class="work-section">
+<a id="work"></a>
+
+
+<div class="ux-work">
+
+  <div class="case-block">
+    <aside>
+      <img src="media/images/urality-preview.jpg" alt="Running-App Photo">
+    </aside>
+    <span>
+      <h3>The Consumer Experience of Urality</h3>
+      <p>Uniting and empowering local businesses by connecting people to their communities through discovery.</p>
+      <a href="urality.html" class="cta-cs">Read case study</a>
+    </span>
+  </div>
+
+  <div class="case-block">
+  <aside>
+    <img src="media/images/run-preview.jpg" alt="Running-App Photo">
+  </aside>
+  <span>
+    <h3>Runners who track</h3>
+    <p>An overview of the major apps in the marketplace for runners, and how we can redesign the free experience to better serve runners.</p>
+    <a href="project4.html" class="cta-cs">Read case study</a>
+  </span>
+</div>
+
+<div class="case-block">
+  <aside>
+    <img src="media/images/mise-img.jpg" alt="Mise en Place illustration">
+  </aside>
+  <span>
+    <h3>Mise en Place</h3>
+    <p>A mobile solution for effortless cooking in the kitchen.</p>
+    <a href="project3.html" class="cta-cs">Read case study</a>
+  </span>
+</div>
+
+<div class="case-block">
+  <aside>
+    <img src="media/images/bloon-illo.jpg" alt="Running-App Photo">
+  </aside>
+  <span>
+    <h3>Bloon</h3>
+    <p>A light-weight cloud storage solution that prioritizes users.</p>
+    <a href="project1.html" class="cta-cs">Read case study</a>
+  </span>
+</div>
+
+<div class="case-block">
+  <aside>
+    <img src="media/images/Busy-Bus.jpg" alt="Running-App Photo">
+  </aside>
+  <span>
+    <h3>BusyBus</h3>
+    <p>A public transportation app that helps riders stay in the know.</p>
+    <a href="project2.html" class="cta-cs">Read case study</a>
+  </span>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- My SKills -->
+  <section class="skills-section">
+    <h1 class="sh1">Skills</h1>
+
+    <div class="skills-box">
+      <ul class="skills-list">
+        <li>
+        <img class="icons" src="media/images/circle-icon.png" alt="Shape icon">
+        </li>
+        <li><h2 class="sh2">Research + Discovery</h2></li>
+          <li>Identifying Problems</li>
+          <li>User Research</li>
+          <li>Competitive Analysis</li>
+          <li>User Personas/POVs</li>
+          <li>User Testing</li>
+      </ul>
+      <ul class="skills-list">
+        <li>
+        <img class="icons" src="media/images/tri-icon.png" alt="Shape icon">
+        </li>
+        <li><h2 class="sh2">Information Architecture</h2></li>
+          <li>Card Sorting</li>
+          <li>User Stories and Journey Maps</li>
+          <li>Site Maps</li>
+          <li>Content Strategy</li>
+          <li>User Testing</li>
+      </ul>
+      <ul class="skills-list">
+        <li>
+        <img class="icons" src="media/images/star-icon.png" alt="Shape icon">
+        </li>
+        <li><h2 class="sh2">Visual Design</h2></li>
+          <li>Sketching</li>
+          <li>Wireframing</li>
+          <li>Hi-Fi Prototyping</li>
+          <li>Moodboards</li>
+          <li>Branding</li>
+          <li>User Testing</li>
+      </ul>
+      <ul class="skills-list">
+        <li>
+        <img class="icons" src="media/images/rectangle-icon.png" alt="Shape icon">
+        </li>
+        <li><h2 class="sh2">Software & Etc</h2></li>
+          <li>HTML/CSS/JS</li>
+          <li>Illustrator</li>
+          <li>Photoshop</li>
+          <li>Figma/Sketch/XD</li>
+          <li>Project Management</li>
+          <li>Team Collaboration</li>
+      </ul>
+    </div>
+
+  </section>
+<!-- Footer Section-->
+    <footer>
+      <div class="footer-text">
+        <h2 class="connecth2">Connect</h2>
+      </div>
+      <div class="cta2">
+        <a href="mailto:justinbthrift@gmail.com" target="_blank" class="cta-connect">email me</a>
+      </div>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/justinthrift/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://dribbble.com/justinthrift" target="_blank"><i class="fab fa-dribbble fa-2x"></i></a>
+        <a href="https://www.twitter.com/justinthrift/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/justinthrift/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <div class="bottom">
+            <p><span class="coded">Designed in Figma, coded in Atom from scratch. Deployed via GitHub.</span></p>
+          </div>
+      </div>
+    </footer>
+  </body>
+ </html>
